@@ -16,7 +16,7 @@ int main(int argc, const char *argv[])
     log_float();
 
     log_static_string();
-    
+
     // some console colors
     printf("\033[0m\nSETTING COLORS");
     printf("\033[0;31m\nRED");

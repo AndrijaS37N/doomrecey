@@ -20,7 +20,7 @@ struct StaticString
 struct DynamicString
 {
     int lenght;
-    char * text;
+    char *text;
     char last_letter;
 };
 

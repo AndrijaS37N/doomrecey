@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include "simple_io.h"
 // warnings for <stdio.h> if not included
 
@@ -34,4 +35,22 @@ void log_string_fgets()
 void log_dynamic_string()
 {
     // WIP
+    
+    // int count;
+    // printf("Enter the size of the array:\n");
+    // scanf("%d", &count);
+
+    // int *array = malloc(count * sizeof(*array));
+    // if (!array)
+    // {
+    //     printf("There was a problem with malloc.");
+    //     exit(EXIT_FAILURE);
+    // }
+
+    // printf("Enter the elements of the array:\n");
+    // for (int i = 0; i < count; i++)
+    //     scanf("%d", &array[i]);
+
+    // printArray(array, count);
+    // free(array);
 }
