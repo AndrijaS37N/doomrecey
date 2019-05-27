@@ -14,17 +14,9 @@ int main(int argc, const char *argv[])
     log_integer();
     log_double();
     log_float();
-    log_string_brackets();
-    //    char char_array[10];
-    //
-    //    printf("Enter char array variable: ");
-    //    scanf("%s", char_array);
-    //    printf("Entered char array variable: %s", char_array);
 
-    //    printf("Enter char array variable: ");
-    //    fgets(char_array, 10, stdin);
-    //    printf("%s", char_array);
-
+    log_static_string();
+    
     // some console colors
     printf("\033[0m\nSETTING COLORS");
     printf("\033[0;31m\nRED");
@@ -35,7 +27,7 @@ int main(int argc, const char *argv[])
     // for bold colors use 1 instead of 0, like this [1;31m
     printf("\033[0m\nRESET COLORS");
 
-    printf("\nEnd message: \033[0;32mHello, World!\n");
+    printf("\nEnd message: \033[1;32mHello, World!\n");
     return 0;
 
     /* References: 
