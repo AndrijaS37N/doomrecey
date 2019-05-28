@@ -6,6 +6,7 @@ Using Xcode & VS Code with Code Runner, GCC & IntelliSense
 
 #include <stdio.h>
 #include "simple_io.h"
+#include "cpp_file.h"
 
 // gcc ${array_of_files} -o doomrecey
 
@@ -27,10 +28,17 @@ int main(int argc, const char *argv[])
     // for bold colors use 1 instead of 0, like this [1;31m
     printf("\033[0m\nRESET COLORS");
 
-    printf("\nEnd message: \033[1;32mHello, World!\n");
+    printf("\nC end message: \033[1;32mHello, World!\n");
+
+    cpp_main();
+
     return 0;
 
     /* References: 
     A* REF https://rosettacode.org/wiki/A*_search_algorithm
     */
+
+    // gcc -c -std=c99 -o file1.o file1.c
+    // g++ -c -std=c++0x -o file2.o file2.cpp
+    // g++ -o myapp file1.o file2.o
 }
