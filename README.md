@@ -6,4 +6,13 @@
   <li>Has a small Python script for some simple help.</li>
 </ul>
 
-Note: Wonna try embedded development with these tools as well.
+Note #1:
+
+```
+gcc ${array_of_files (.c)} -o doomrecey
+```
+```
+g++ ${array_of_files (.cpp)} -o doomrecey++
+```
+
+Note #2: Wonna try embedded development with these tools as well.
