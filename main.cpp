@@ -1,12 +1,18 @@
 #include <iostream>
-#include "cpp_file.hpp"
+#include "simple_io.hpp"
 
 int main()
 {
-    CppFile test;
-    std::cout << "CPP end message: ";
-    printf("\033[0;32m\n");
-    test.cpp_main();
-    printf("\033[0m\n");
+    SimpleIO io_test;
+    std::cout << "CPP messages:" << std::endl;
+    
+    io_test.call_hello_world();
+
+    int number;
+    std::cout << "Calculate factorial of the number: ";
+    std::cin >> number;
+    // std::cout << "Factorial of " << number << " is:"<< io_test.factorial(4) << std::endl;
+    printf("%i! is %i\n", number, io_test.factorial(4));
+
     return 0;
 }
