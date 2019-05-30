@@ -22,10 +22,29 @@ int SimpleIO::factorial(int number)
 {
     int i = 0;
     int result = 1;
-    while((number - i) > 0)
+    while ((number - i) > 0)
     {
         result = result * (number - i);
         i++;
     }
     return result;
+}
+
+int SimpleIO::recursive_factorial(int number, int result)
+{
+    if (number > 0)
+    {
+        result = result * number;
+        return recursive_factorial(number - 1, result);
+    }
+    else
+        return result;
+}
+
+int SimpleIO::optimised_recursive_factorial(int number)
+{
+    if ((number == 0) || (number == 1))
+        return 1;
+    else
+        return number * optimised_recursive_factorial(number - 1);
 }
