@@ -6,7 +6,7 @@
   <li>Has a small Python script for some simple help.</li>
 </ul>
 
-Note #1:
+Note #1: Compiling reminders.
 
 ```
 gcc ${array_of_files (.c)} -o doomrecey
