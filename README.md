@@ -1,9 +1,9 @@
 # Doomrecey
-<h3>Do more C.</h3>
+<h3>Do more C++ & C.</h3>
 <ul>
   <li>I've haven't played with it in a long while.</li>
-  <li>Compiling with GCC.</li>
-  <li>🚧</li>
+  <li>Compiling with G++ & GCC.</li>
+  <li>Has a small Python script for some simple help.</li>
 </ul>
 
-Note: This is regular C, but I think I'll try embedded C as well for some chosen architecture, perhaps with a bit of assembly analysis, low level memory scoping, etc.
+Note: Wonna try embedded development with these tools as well.
