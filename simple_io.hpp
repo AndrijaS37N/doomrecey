@@ -9,6 +9,8 @@ public:
     int factorial(int number);
     int recursive_factorial(int number, int result);
     int optimised_recursive_factorial(int number);
+    bool palindrome_string(std::string word);
+    bool palindrome_number(int number);
 
 private:
     void print_hello_world();

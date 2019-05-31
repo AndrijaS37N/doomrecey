@@ -30,6 +30,8 @@ int main(int argc, const char *argv[])
     printf("\nC end message: \033[1;32mHello, World!\n");
     printf("\033[0m\n");
 
+    printf("SIZES\nint - %lu\nchar - %lu\ndouble - %lu\nfloat - %lu\nlong int - %lu\nlong long int - %lu\n\n", sizeof(int), sizeof(char), sizeof(double), sizeof(float), sizeof(long int), sizeof(long long int));
+
     return 0;
 
     /* References: 

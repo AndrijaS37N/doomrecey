@@ -35,7 +35,7 @@ void log_string_fgets()
 void log_dynamic_string()
 {
     // WIP
-    
+
     // int count;
     // printf("Enter the size of the array:\n");
     // scanf("%d", &count);

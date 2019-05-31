@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 #include "simple_io.hpp"
 
 int SimpleIO::call_hello_world()
@@ -47,4 +48,36 @@ int SimpleIO::optimised_recursive_factorial(int number)
         return 1;
     else
         return number * optimised_recursive_factorial(number - 1);
+}
+
+bool SimpleIO::palindrome_string(std::string word)
+{
+    // let's use size_t
+    size_t i;
+    size_t j = word.length() - 1;
+
+    for (i = 0; i <= j; i++, j--)
+        if (word.at(i) != word.at(j))
+            return false;
+
+    return true;
+}
+
+bool SimpleIO::palindrome_number(int number)
+{
+    int reversed = 0;
+    int remainder;
+    // temporary buffer to be used for popping off remainders
+    int buffer = number;
+
+    // example with do while
+    do
+    {
+        // popped digit
+        remainder = buffer % 10;
+        reversed = (reversed * 10) + remainder;
+        buffer = buffer / 10;
+    } while (buffer != 0);
+
+    return (number == reversed) ? true : false;
 }
