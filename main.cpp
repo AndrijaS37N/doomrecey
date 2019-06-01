@@ -37,6 +37,8 @@ int main()
     printf("Sorted array: ");
     intermediate_io.print_array(array, number_of_elements);
     
+    // do 
+
     // WIP
     return 0;
 }
