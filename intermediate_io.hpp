@@ -8,5 +8,6 @@ public:
     int partition(int array[], int left, int right);
     void quicksort(int array[], int left, int right);
     void print_array(int array[], int size);
+    // void print_class_name(Animal *a_class);
 };
 #endif /* intermediate_io_hpp */

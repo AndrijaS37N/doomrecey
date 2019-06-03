@@ -1,8 +1,12 @@
 #include <iostream>
 #include "simple_io.hpp"
 #include "intermediate_io.hpp"
-#include "a_class.hpp"
-#include "b_class.hpp"
+#include "animal.hpp"
+#include "dog.hpp"
+
+/*
+-> Note: More restructuring of this code into other files and classed will be done at a later date.
+*/
 
 int main()
 {
@@ -52,23 +56,35 @@ int main()
     // intermediate stuff 👇
 
     IntermediateIO intermediate_io;
-    int array[] = {10, 7, 8, 9, 1, 5, 25, 13, 3, 6};
-    // number of elements
-    int number_of_elements = sizeof(array) / sizeof(array[0]);
-    intermediate_io.quicksort(array, 0, number_of_elements - 1);
-    printf("Sorted array: ");
-    intermediate_io.print_array(array, number_of_elements);
+
+    // int array[] = {10, 7, 8, 9, 1, 5, 25, 13, 3, 6};
+    // // number of elements
+    // int number_of_elements = sizeof(array) / sizeof(array[0]);
+    // intermediate_io.quicksort(array, 0, number_of_elements - 1);
+    // printf("Sorted array: ");
+    // intermediate_io.print_array(array, number_of_elements);
 
     // more classes, virtual, pure virtual ...
-    A *a_class = new A();
-    std::cout << a_class->get_class_name() << std::endl;
+    Animal *animal = new Animal();
+    std::cout << "Call animal get_class_name(): " << animal->get_class_name() << std::endl;
 
-    B *b_class = new B("Param: B Class");
-    std::cout << b_class->get_class_name() << std::endl;
-    std::cout << b_class->get_name() << std::endl;
+    Dog *keyush = new Dog("Dog");
+    std::cout << "Call dog get_class_name(): " << keyush->get_class_name() << std::endl;
+    std::cout << "call dog get_name(): " << keyush->get_name() << std::endl;
 
-    delete(a_class);
-    delete(b_class);
+    delete (animal);
+    delete (keyush);
+    
+    // Dog *rupert = new Dog("Param: Dog Class");
+    // Animal *pup = rupert;
+    // std::cout << "Get Animal class = animal class name: " << pup->get_class_name() << std::endl;
+
+    // Dog *passed_rupert = new Dog("Param: Passed Dog Class");
+    // intermediate_io.print_class_name(passed_b_class);
+
+    // delete (pup);
+    // delete (rupert);
+    // delete (passed_rupert);
 
     /* ......... do more
      WIP */

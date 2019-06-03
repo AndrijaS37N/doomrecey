@@ -1,5 +1,6 @@
 #include <iostream>
 #include "intermediate_io.hpp"
+#include "animal.hpp"
 
 void IntermediateIO::swap(int *a, int *b)
 {
@@ -45,3 +46,8 @@ void IntermediateIO::print_array(int array[], int size)
         printf("%d ", array[i]);
     std::cout << std::endl;
 }
+
+// void IntermediateIO::print_class_name(Animal *a_class)
+// {
+//     std::cout << a_class->get_class_name() << std::endl;
+// }
