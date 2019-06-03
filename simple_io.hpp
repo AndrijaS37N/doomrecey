@@ -4,7 +4,6 @@
 class SimpleIO
 {
 public:
-    // g++ ${array_of_files} -o doomrecey++
     int call_hello_world();
     int factorial(int number);
     int recursive_factorial(int number, int result);

@@ -5,7 +5,11 @@
 #include "dog.hpp"
 
 /*
--> Note: More restructuring of this code into other files and classed will be done at a later date.
+Note: More restructuring of this code into other files and classed will be done at a later date.
+- - - - - - - - - - - - - - - - - - - - - - - -
+g++ ${array_of_files} -o doomrecey++ -std=c++11
+-std=c++11 flag used for the 'override' keyword made standard in c++11 I think (extension)
+- - - - - - - - - - - - - - - - - - - - - - - -
 */
 
 int main()
@@ -70,7 +74,7 @@ int main()
 
     Dog *keyush = new Dog("Dog 'Keyush'");
     std::cout << "Call dog get_class_name(): " << keyush->get_class_name() << std::endl;
-    std::cout << "call dog get_name(): " << keyush->get_name() << std::endl;
+    std::cout << "call dog get_name(): " << keyush->get_class_name() << std::endl;
 
     delete (animal);
     delete (keyush);
@@ -81,6 +85,7 @@ int main()
 
     Dog *passed_rupert = new Dog("Dog passed 'Rupert'");
     std::cout << "Print Dog *passed_rupert as Animal *animal object: ";
+    // was 'Animal', but with virtual and an override now it's Dog passed 'Rupert'
     pup->print_class_name(passed_rupert);
 
     // delete (pup);

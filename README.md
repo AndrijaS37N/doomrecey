@@ -12,7 +12,7 @@ Note #1: Compiling reminders.
 gcc ${array_of_files (.c)} -o doomrecey
 ```
 ```
-g++ ${array_of_files (.cpp)} -o doomrecey++
+g++ ${array_of_files (.cpp)} -o doomrecey++ (with -std=c++11)
 ```
 
-Note #2: Wonna try embedded development with these tools as well.
+Note #2: Want to try embedded development with these tools as well.

@@ -4,7 +4,7 @@
 class Animal
 {
 public:
-    std::string get_class_name() { return "Animal"; }
+    virtual std::string get_class_name() { return "Animal"; }
     void print_class_name(Animal *animal);
 };
 
