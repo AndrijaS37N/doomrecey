@@ -1,6 +1,8 @@
 #include <iostream>
 #include "simple_io.hpp"
 #include "intermediate_io.hpp"
+#include "a_class.hpp"
+#include "b_class.hpp"
 
 int main()
 {
@@ -57,10 +59,18 @@ int main()
     printf("Sorted array: ");
     intermediate_io.print_array(array, number_of_elements);
 
-    
+    // more classes, virtual, pure virtual ...
+    A *a_class = new A();
+    std::cout << a_class->get_class_name() << std::endl;
 
-    // .........
+    B *b_class = new B("Param: B Class");
+    std::cout << b_class->get_class_name() << std::endl;
+    std::cout << b_class->get_name() << std::endl;
 
-    // WIP
+    delete(a_class);
+    delete(b_class);
+
+    /* ......... do more
+     WIP */
     return 0;
 }
