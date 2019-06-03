@@ -74,10 +74,10 @@ int main()
 
     delete (animal);
     delete (keyush);
-    
-    // Dog *rupert = new Dog("Param: Dog Class");
-    // Animal *pup = rupert;
-    // std::cout << "Get Animal class = animal class name: " << pup->get_class_name() << std::endl;
+
+    Dog *rupert = new Dog("Param: Dog Class");
+    Animal *pup = rupert;
+    std::cout << "Get Animal class = animal class name: " << pup->get_class_name() << std::endl;
 
     // Dog *passed_rupert = new Dog("Param: Passed Dog Class");
     // intermediate_io.print_class_name(passed_b_class);
