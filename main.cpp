@@ -68,19 +68,20 @@ int main()
     Animal *animal = new Animal();
     std::cout << "Call animal get_class_name(): " << animal->get_class_name() << std::endl;
 
-    Dog *keyush = new Dog("Dog");
+    Dog *keyush = new Dog("Dog 'Keyush'");
     std::cout << "Call dog get_class_name(): " << keyush->get_class_name() << std::endl;
     std::cout << "call dog get_name(): " << keyush->get_name() << std::endl;
 
     delete (animal);
     delete (keyush);
 
-    Dog *rupert = new Dog("Param: Dog Class");
+    Dog *rupert = new Dog("Dog 'Ruppert'");
     Animal *pup = rupert;
-    std::cout << "Get Animal class = animal class name: " << pup->get_class_name() << std::endl;
+    std::cout << "Call animal get_class_name(): " << pup->get_class_name() << std::endl;
 
-    // Dog *passed_rupert = new Dog("Param: Passed Dog Class");
-    // intermediate_io.print_class_name(passed_b_class);
+    Dog *passed_rupert = new Dog("Dog passed 'Rupert'");
+    std::cout << "Print Dog *passed_rupert as Animal *animal object: ";
+    pup->print_class_name(passed_rupert);
 
     // delete (pup);
     // delete (rupert);

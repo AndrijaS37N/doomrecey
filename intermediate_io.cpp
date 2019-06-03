@@ -46,8 +46,3 @@ void IntermediateIO::print_array(int array[], int size)
         printf("%d ", array[i]);
     std::cout << std::endl;
 }
-
-// void IntermediateIO::print_class_name(Animal *a_class)
-// {
-//     std::cout << a_class->get_class_name() << std::endl;
-// }
