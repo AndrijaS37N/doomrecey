@@ -11,7 +11,9 @@ public:
     int optimised_recursive_factorial(int number);
     bool palindrome_string(std::string word);
     bool palindrome_number(int number);
-
+    void divising();
+    void is_prime();
+    int calculate_fibonacci(int n);
 private:
     void print_hello_world();
 };

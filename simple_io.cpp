@@ -81,3 +81,47 @@ bool SimpleIO::palindrome_number(int number)
 
     return (number == reversed) ? true : false;
 }
+
+void SimpleIO::divising()
+{
+    int first, second;
+
+    std::cout << "Divising: Enter int a and int b: ";
+    std::cin >> first >> second;
+
+    if (first % second == 0)
+        std::cout << "First number " << first << " is divisible by the second number " << second << std::endl;
+    else
+        std::cout << "First number " << first << " is not divisible by the second number " << second << std::endl;
+}
+
+void SimpleIO::is_prime()
+{
+    int n;
+    bool is_prime = true;
+
+    std::cout << "Enter a positive integer: ";
+    std::cin >> n;
+
+    for (int i = 2; i <= n / 2; ++i)
+    {
+        if (n % i == 0)
+        {
+            is_prime = false;
+            break;
+        }
+    }
+
+    if (is_prime)
+        std::cout << "Output: This is a prime number" << std::endl;
+    else
+        std::cout << "Output: This is not a prime number" << std::endl;
+}
+
+int SimpleIO::calculate_fibonacci(int n)
+{
+    if (n < 2)
+        return n;
+    else
+        return (calculate_fibonacci(n - 1) + calculate_fibonacci(n - 2));
+}
