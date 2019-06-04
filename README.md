@@ -4,9 +4,10 @@
   <li>I haven't played with it in a long while.</li>
   <li>Compiling with G++ and GCC.</li>
   <li>Has a small Python script for some simple help.</li>
+  <li>Potential unstructured code for practising purposes.</li>
 </ul>
 
-Note #1: Compiling reminders.
+Note #1: Simple compiling reminders.
 
 ```
 gcc ${array_of_files (.c)} -o doomrecey
@@ -15,4 +16,4 @@ gcc ${array_of_files (.c)} -o doomrecey
 g++ ${array_of_files (.cpp)} -o doomrecey++ (with -std=c++11)
 ```
 
-Note #2: Want to try embedded development with these tools as well.
+Note #2: In the future i'd want to try embedded development with these tools as well (embedded C/C++).
