@@ -101,11 +101,12 @@ int main()
     std::cout << "Call Cat get_class_name(): " << meower->get_class_name() << std::endl << "And again (print_class_name(meower)): ";
     meower->print_class_name(meower); // or like this
 
-    std::cout << '\n';
-
     Dog *d = new Dog("Milley");
     std::cout << d->make_sound("Blink, blink") << std::endl; 
 
+    printf("Press 'enter' to continue...");
+
+    // using some string/char manipulation in this one
     Cat *c = new Cat();
     std::cout << c->make_sound("Blink, blink") << std::endl; 
 

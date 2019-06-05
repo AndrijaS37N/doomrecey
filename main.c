@@ -14,7 +14,7 @@ Using Xcode & VS Code with Code Runner, GCC & IntelliSense
 
 void getchar_time()
 {
-    printf("Measuring getchar(), time() time. Press 'y' to continue on ...\n");
+    printf("Measuring getchar(), time() time. Press 'y' to continue on... ");
     while (1)
         if (getchar() == 'y')
             break;
@@ -71,6 +71,7 @@ int main(int argc, const char *argv[])
     gettimeofday(&time_struct, NULL);
     start = (long)time_struct.tv_sec * 1000 + (long)time_struct.tv_usec / 1000;
 
+    printf("More precise measuring 👇\n");
     getchar_time();
 
     gettimeofday(&time_struct, NULL);
@@ -78,7 +79,5 @@ int main(int argc, const char *argv[])
 
     printf("Milliseconds elapsed: %ldms\n", (end - start));
 
-    // WIP
-    // .....
     return 0;
 }

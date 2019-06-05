@@ -52,6 +52,8 @@ int SimpleIO::optimised_recursive_factorial(int number)
 
 bool SimpleIO::palindrome_string(std::string word)
 {
+    if (word.length() <= 1)
+        return true;
     // let's use size_t
     size_t i;
     size_t j = word.length() - 1;
