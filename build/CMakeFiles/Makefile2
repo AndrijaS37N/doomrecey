@@ -65,39 +65,39 @@ CMAKE_SOURCE_DIR = /Users/andrijadjuric/Sites/GitHub/doomrecey
 CMAKE_BINARY_DIR = /Users/andrijadjuric/Sites/GitHub/doomrecey/build
 
 #=============================================================================
-# Target rules for target CMakeFiles/doomrecey++.dir
+# Target rules for target CMakeFiles/doomrecey.dir
 
 # All Build rule for target.
-CMakeFiles/doomrecey++.dir/all:
-	$(MAKE) -f CMakeFiles/doomrecey++.dir/build.make CMakeFiles/doomrecey++.dir/depend
-	$(MAKE) -f CMakeFiles/doomrecey++.dir/build.make CMakeFiles/doomrecey++.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/andrijadjuric/Sites/GitHub/doomrecey/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target doomrecey++"
-.PHONY : CMakeFiles/doomrecey++.dir/all
+CMakeFiles/doomrecey.dir/all:
+	$(MAKE) -f CMakeFiles/doomrecey.dir/build.make CMakeFiles/doomrecey.dir/depend
+	$(MAKE) -f CMakeFiles/doomrecey.dir/build.make CMakeFiles/doomrecey.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/andrijadjuric/Sites/GitHub/doomrecey/build/CMakeFiles --progress-num=1,2,3 "Built target doomrecey"
+.PHONY : CMakeFiles/doomrecey.dir/all
 
 # Include target in all.
-all: CMakeFiles/doomrecey++.dir/all
+all: CMakeFiles/doomrecey.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/doomrecey++.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/andrijadjuric/Sites/GitHub/doomrecey/build/CMakeFiles 7
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/doomrecey++.dir/all
+CMakeFiles/doomrecey.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/andrijadjuric/Sites/GitHub/doomrecey/build/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/doomrecey.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/andrijadjuric/Sites/GitHub/doomrecey/build/CMakeFiles 0
-.PHONY : CMakeFiles/doomrecey++.dir/rule
+.PHONY : CMakeFiles/doomrecey.dir/rule
 
 # Convenience name for target.
-doomrecey++: CMakeFiles/doomrecey++.dir/rule
+doomrecey: CMakeFiles/doomrecey.dir/rule
 
-.PHONY : doomrecey++
-
-# clean rule for target.
-CMakeFiles/doomrecey++.dir/clean:
-	$(MAKE) -f CMakeFiles/doomrecey++.dir/build.make CMakeFiles/doomrecey++.dir/clean
-.PHONY : CMakeFiles/doomrecey++.dir/clean
+.PHONY : doomrecey
 
 # clean rule for target.
-clean: CMakeFiles/doomrecey++.dir/clean
+CMakeFiles/doomrecey.dir/clean:
+	$(MAKE) -f CMakeFiles/doomrecey.dir/build.make CMakeFiles/doomrecey.dir/clean
+.PHONY : CMakeFiles/doomrecey.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/doomrecey.dir/clean
 
 .PHONY : clean
 

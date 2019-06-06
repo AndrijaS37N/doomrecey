@@ -79,5 +79,10 @@ int main(int argc, const char *argv[])
 
     printf("Milliseconds elapsed: %ldms\n", (end - start));
 
+    int ref = 5;
+    printf("\nPassing the number %i (passing addresses to simulate a reference), it should return as 10\n", ref);
+    set_by_ref(&ref);
+    printf("Now the number is: %i\n", ref);
+
     return 0;
 }

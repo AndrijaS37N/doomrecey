@@ -28,6 +28,7 @@ void log_integer();
 void log_double();
 void log_float();
 void log_static_string();
+void set_by_ref(int *ref);
 
 // TODO
 void log_string_fgets();

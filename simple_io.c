@@ -54,3 +54,13 @@ void log_dynamic_string()
     // printArray(array, count);
     // free(array);
 }
+
+/*  
+   > sort of 'reference', in C there are none like '&'
+   > but we can simulate it with pointers and passing addresses
+*/
+void set_by_ref(int *ref)
+{
+    // set to 10
+    *ref = 5 + 5;
+}

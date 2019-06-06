@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/andrijadjuric/Sites/GitHub/doomrecey/main.c
+stdio.h
+-
+math.h
+-
+sys/time.h
+-
+unistd.h
+-
+simple_io.h
+/Users/andrijadjuric/Sites/GitHub/doomrecey/simple_io.h
+
+/Users/andrijadjuric/Sites/GitHub/doomrecey/simple_io.h
+

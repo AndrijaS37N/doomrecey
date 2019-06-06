@@ -127,4 +127,3 @@ int SimpleIO::calculate_fibonacci(int n)
     else
         return (calculate_fibonacci(n - 1) + calculate_fibonacci(n - 2));
 }
-

@@ -111,179 +111,71 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named doomrecey++
+# Target rules for targets named doomrecey
 
 # Build rule for target.
-doomrecey++: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 doomrecey++
-.PHONY : doomrecey++
+doomrecey: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 doomrecey
+.PHONY : doomrecey
 
 # fast build rule for target.
-doomrecey++/fast:
-	$(MAKE) -f CMakeFiles/doomrecey++.dir/build.make CMakeFiles/doomrecey++.dir/build
-.PHONY : doomrecey++/fast
+doomrecey/fast:
+	$(MAKE) -f CMakeFiles/doomrecey.dir/build.make CMakeFiles/doomrecey.dir/build
+.PHONY : doomrecey/fast
 
-animal.o: animal.cpp.o
-
-.PHONY : animal.o
-
-# target to build an object file
-animal.cpp.o:
-	$(MAKE) -f CMakeFiles/doomrecey++.dir/build.make CMakeFiles/doomrecey++.dir/animal.cpp.o
-.PHONY : animal.cpp.o
-
-animal.i: animal.cpp.i
-
-.PHONY : animal.i
-
-# target to preprocess a source file
-animal.cpp.i:
-	$(MAKE) -f CMakeFiles/doomrecey++.dir/build.make CMakeFiles/doomrecey++.dir/animal.cpp.i
-.PHONY : animal.cpp.i
-
-animal.s: animal.cpp.s
-
-.PHONY : animal.s
-
-# target to generate assembly for a file
-animal.cpp.s:
-	$(MAKE) -f CMakeFiles/doomrecey++.dir/build.make CMakeFiles/doomrecey++.dir/animal.cpp.s
-.PHONY : animal.cpp.s
-
-cat.o: cat.cpp.o
-
-.PHONY : cat.o
-
-# target to build an object file
-cat.cpp.o:
-	$(MAKE) -f CMakeFiles/doomrecey++.dir/build.make CMakeFiles/doomrecey++.dir/cat.cpp.o
-.PHONY : cat.cpp.o
-
-cat.i: cat.cpp.i
-
-.PHONY : cat.i
-
-# target to preprocess a source file
-cat.cpp.i:
-	$(MAKE) -f CMakeFiles/doomrecey++.dir/build.make CMakeFiles/doomrecey++.dir/cat.cpp.i
-.PHONY : cat.cpp.i
-
-cat.s: cat.cpp.s
-
-.PHONY : cat.s
-
-# target to generate assembly for a file
-cat.cpp.s:
-	$(MAKE) -f CMakeFiles/doomrecey++.dir/build.make CMakeFiles/doomrecey++.dir/cat.cpp.s
-.PHONY : cat.cpp.s
-
-dog.o: dog.cpp.o
-
-.PHONY : dog.o
-
-# target to build an object file
-dog.cpp.o:
-	$(MAKE) -f CMakeFiles/doomrecey++.dir/build.make CMakeFiles/doomrecey++.dir/dog.cpp.o
-.PHONY : dog.cpp.o
-
-dog.i: dog.cpp.i
-
-.PHONY : dog.i
-
-# target to preprocess a source file
-dog.cpp.i:
-	$(MAKE) -f CMakeFiles/doomrecey++.dir/build.make CMakeFiles/doomrecey++.dir/dog.cpp.i
-.PHONY : dog.cpp.i
-
-dog.s: dog.cpp.s
-
-.PHONY : dog.s
-
-# target to generate assembly for a file
-dog.cpp.s:
-	$(MAKE) -f CMakeFiles/doomrecey++.dir/build.make CMakeFiles/doomrecey++.dir/dog.cpp.s
-.PHONY : dog.cpp.s
-
-intermediate_io.o: intermediate_io.cpp.o
-
-.PHONY : intermediate_io.o
-
-# target to build an object file
-intermediate_io.cpp.o:
-	$(MAKE) -f CMakeFiles/doomrecey++.dir/build.make CMakeFiles/doomrecey++.dir/intermediate_io.cpp.o
-.PHONY : intermediate_io.cpp.o
-
-intermediate_io.i: intermediate_io.cpp.i
-
-.PHONY : intermediate_io.i
-
-# target to preprocess a source file
-intermediate_io.cpp.i:
-	$(MAKE) -f CMakeFiles/doomrecey++.dir/build.make CMakeFiles/doomrecey++.dir/intermediate_io.cpp.i
-.PHONY : intermediate_io.cpp.i
-
-intermediate_io.s: intermediate_io.cpp.s
-
-.PHONY : intermediate_io.s
-
-# target to generate assembly for a file
-intermediate_io.cpp.s:
-	$(MAKE) -f CMakeFiles/doomrecey++.dir/build.make CMakeFiles/doomrecey++.dir/intermediate_io.cpp.s
-.PHONY : intermediate_io.cpp.s
-
-main.o: main.cpp.o
+main.o: main.c.o
 
 .PHONY : main.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/doomrecey++.dir/build.make CMakeFiles/doomrecey++.dir/main.cpp.o
-.PHONY : main.cpp.o
+main.c.o:
+	$(MAKE) -f CMakeFiles/doomrecey.dir/build.make CMakeFiles/doomrecey.dir/main.c.o
+.PHONY : main.c.o
 
-main.i: main.cpp.i
+main.i: main.c.i
 
 .PHONY : main.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/doomrecey++.dir/build.make CMakeFiles/doomrecey++.dir/main.cpp.i
-.PHONY : main.cpp.i
+main.c.i:
+	$(MAKE) -f CMakeFiles/doomrecey.dir/build.make CMakeFiles/doomrecey.dir/main.c.i
+.PHONY : main.c.i
 
-main.s: main.cpp.s
+main.s: main.c.s
 
 .PHONY : main.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/doomrecey++.dir/build.make CMakeFiles/doomrecey++.dir/main.cpp.s
-.PHONY : main.cpp.s
+main.c.s:
+	$(MAKE) -f CMakeFiles/doomrecey.dir/build.make CMakeFiles/doomrecey.dir/main.c.s
+.PHONY : main.c.s
 
-simple_io.o: simple_io.cpp.o
+simple_io.o: simple_io.c.o
 
 .PHONY : simple_io.o
 
 # target to build an object file
-simple_io.cpp.o:
-	$(MAKE) -f CMakeFiles/doomrecey++.dir/build.make CMakeFiles/doomrecey++.dir/simple_io.cpp.o
-.PHONY : simple_io.cpp.o
+simple_io.c.o:
+	$(MAKE) -f CMakeFiles/doomrecey.dir/build.make CMakeFiles/doomrecey.dir/simple_io.c.o
+.PHONY : simple_io.c.o
 
-simple_io.i: simple_io.cpp.i
+simple_io.i: simple_io.c.i
 
 .PHONY : simple_io.i
 
 # target to preprocess a source file
-simple_io.cpp.i:
-	$(MAKE) -f CMakeFiles/doomrecey++.dir/build.make CMakeFiles/doomrecey++.dir/simple_io.cpp.i
-.PHONY : simple_io.cpp.i
+simple_io.c.i:
+	$(MAKE) -f CMakeFiles/doomrecey.dir/build.make CMakeFiles/doomrecey.dir/simple_io.c.i
+.PHONY : simple_io.c.i
 
-simple_io.s: simple_io.cpp.s
+simple_io.s: simple_io.c.s
 
 .PHONY : simple_io.s
 
 # target to generate assembly for a file
-simple_io.cpp.s:
-	$(MAKE) -f CMakeFiles/doomrecey++.dir/build.make CMakeFiles/doomrecey++.dir/simple_io.cpp.s
-.PHONY : simple_io.cpp.s
+simple_io.c.s:
+	$(MAKE) -f CMakeFiles/doomrecey.dir/build.make CMakeFiles/doomrecey.dir/simple_io.c.s
+.PHONY : simple_io.c.s
 
 # Help Target
 help:
@@ -293,19 +185,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... doomrecey++"
-	@echo "... animal.o"
-	@echo "... animal.i"
-	@echo "... animal.s"
-	@echo "... cat.o"
-	@echo "... cat.i"
-	@echo "... cat.s"
-	@echo "... dog.o"
-	@echo "... dog.i"
-	@echo "... dog.s"
-	@echo "... intermediate_io.o"
-	@echo "... intermediate_io.i"
-	@echo "... intermediate_io.s"
+	@echo "... doomrecey"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
