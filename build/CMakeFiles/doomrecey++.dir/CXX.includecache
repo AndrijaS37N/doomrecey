@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/andrijadjuric/Sites/GitHub/doomrecey/animal.hpp
+
+/Users/andrijadjuric/Sites/GitHub/doomrecey/dog.cpp
+iostream
+-
+animal.hpp
+/Users/andrijadjuric/Sites/GitHub/doomrecey/animal.hpp
+dog.hpp
+/Users/andrijadjuric/Sites/GitHub/doomrecey/dog.hpp
+
+/Users/andrijadjuric/Sites/GitHub/doomrecey/dog.hpp
+
