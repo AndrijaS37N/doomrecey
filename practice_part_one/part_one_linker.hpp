@@ -1,5 +1,5 @@
-#ifndef activations_hpp
-#define activations_hpp
+#ifndef part_one_linker_hpp
+#define part_one_linker_hpp
 
 #include <iostream>
 #include "simple_io.hpp"
@@ -109,4 +109,4 @@ void activate_part_one()
     std::cout << '\n';
 }
 
-#endif /* activations_hpp */
+#endif /* part_one_linker_hpp */

@@ -1,5 +1,5 @@
-#ifndef activations_h
-#define activations_h
+#ifndef part_one_linker_h
+#define part_one_linker_h
 
 #include <stdio.h>
 #include <math.h>
@@ -84,4 +84,4 @@ void activate_part_one()
     printf("\n");
 }
 
-#endif /* activations_h */
+#endif /* part_one_linker_h */

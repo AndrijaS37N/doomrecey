@@ -7,12 +7,20 @@
 #IncludeRegexTransform: 
 
 /Users/andrijadjuric/Sites/GitHub/doomrecey/main.cpp
-iostream
--
-practice_part_one/activations.hpp
-/Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_one/activations.hpp
+practice_part_one/part_one_linker.hpp
+/Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_one/part_one_linker.hpp
+practice_part_two/part_two_linker.hpp
+/Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_two/part_two_linker.hpp
 
-/Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_one/activations.hpp
+/Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_one/animal.hpp
+
+/Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_one/cat.hpp
+
+/Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_one/dog.hpp
+
+/Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_one/intermediate_io.hpp
+
+/Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_one/part_one_linker.hpp
 iostream
 -
 simple_io.hpp
@@ -26,13 +34,7 @@ dog.hpp
 cat.hpp
 /Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_one/cat.hpp
 
-/Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_one/animal.hpp
-
-/Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_one/cat.hpp
-
-/Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_one/dog.hpp
-
-/Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_one/intermediate_io.hpp
-
 /Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_one/simple_io.hpp
+
+/Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_two/part_two_linker.hpp
 

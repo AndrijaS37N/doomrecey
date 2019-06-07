@@ -1,4 +1,4 @@
-#include "practice_part_one/activations.h"
+#include "practice_part_one/part_one_linker.h"
 
 int main(int argc, const char *argv[])
 {
