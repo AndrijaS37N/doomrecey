@@ -24,4 +24,4 @@ Note #3: In the future i'd want to try embedded development with these tools as 
 #### Project views:
 
 <h6>CMake Building View &#x2198;</h6>
-<img src="project_views/view-1.png" height="600" alt="View 1">
+<img src="project_views/view-1.png" height="500" alt="View 1">
