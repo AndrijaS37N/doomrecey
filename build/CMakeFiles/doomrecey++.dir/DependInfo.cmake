@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/andrijadjuric/Sites/GitHub/doomrecey/animal.cpp" "/Users/andrijadjuric/Sites/GitHub/doomrecey/build/CMakeFiles/doomrecey++.dir/animal.cpp.o"
-  "/Users/andrijadjuric/Sites/GitHub/doomrecey/cat.cpp" "/Users/andrijadjuric/Sites/GitHub/doomrecey/build/CMakeFiles/doomrecey++.dir/cat.cpp.o"
-  "/Users/andrijadjuric/Sites/GitHub/doomrecey/dog.cpp" "/Users/andrijadjuric/Sites/GitHub/doomrecey/build/CMakeFiles/doomrecey++.dir/dog.cpp.o"
-  "/Users/andrijadjuric/Sites/GitHub/doomrecey/intermediate_io.cpp" "/Users/andrijadjuric/Sites/GitHub/doomrecey/build/CMakeFiles/doomrecey++.dir/intermediate_io.cpp.o"
   "/Users/andrijadjuric/Sites/GitHub/doomrecey/main.cpp" "/Users/andrijadjuric/Sites/GitHub/doomrecey/build/CMakeFiles/doomrecey++.dir/main.cpp.o"
-  "/Users/andrijadjuric/Sites/GitHub/doomrecey/simple_io.cpp" "/Users/andrijadjuric/Sites/GitHub/doomrecey/build/CMakeFiles/doomrecey++.dir/simple_io.cpp.o"
+  "/Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_one/animal.cpp" "/Users/andrijadjuric/Sites/GitHub/doomrecey/build/CMakeFiles/doomrecey++.dir/practice_part_one/animal.cpp.o"
+  "/Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_one/cat.cpp" "/Users/andrijadjuric/Sites/GitHub/doomrecey/build/CMakeFiles/doomrecey++.dir/practice_part_one/cat.cpp.o"
+  "/Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_one/dog.cpp" "/Users/andrijadjuric/Sites/GitHub/doomrecey/build/CMakeFiles/doomrecey++.dir/practice_part_one/dog.cpp.o"
+  "/Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_one/intermediate_io.cpp" "/Users/andrijadjuric/Sites/GitHub/doomrecey/build/CMakeFiles/doomrecey++.dir/practice_part_one/intermediate_io.cpp.o"
+  "/Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_one/simple_io.cpp" "/Users/andrijadjuric/Sites/GitHub/doomrecey/build/CMakeFiles/doomrecey++.dir/practice_part_one/simple_io.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

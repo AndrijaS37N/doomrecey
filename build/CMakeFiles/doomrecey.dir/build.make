@@ -70,29 +70,29 @@ CMakeFiles/doomrecey.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/doomrecey.dir/main.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrijadjuric/Sites/GitHub/doomrecey/main.c -o CMakeFiles/doomrecey.dir/main.c.s
 
-CMakeFiles/doomrecey.dir/simple_io.c.o: CMakeFiles/doomrecey.dir/flags.make
-CMakeFiles/doomrecey.dir/simple_io.c.o: ../simple_io.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrijadjuric/Sites/GitHub/doomrecey/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/doomrecey.dir/simple_io.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/doomrecey.dir/simple_io.c.o   -c /Users/andrijadjuric/Sites/GitHub/doomrecey/simple_io.c
+CMakeFiles/doomrecey.dir/practice_part_one/simple_io.c.o: CMakeFiles/doomrecey.dir/flags.make
+CMakeFiles/doomrecey.dir/practice_part_one/simple_io.c.o: ../practice_part_one/simple_io.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrijadjuric/Sites/GitHub/doomrecey/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/doomrecey.dir/practice_part_one/simple_io.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/doomrecey.dir/practice_part_one/simple_io.c.o   -c /Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_one/simple_io.c
 
-CMakeFiles/doomrecey.dir/simple_io.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/doomrecey.dir/simple_io.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrijadjuric/Sites/GitHub/doomrecey/simple_io.c > CMakeFiles/doomrecey.dir/simple_io.c.i
+CMakeFiles/doomrecey.dir/practice_part_one/simple_io.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/doomrecey.dir/practice_part_one/simple_io.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_one/simple_io.c > CMakeFiles/doomrecey.dir/practice_part_one/simple_io.c.i
 
-CMakeFiles/doomrecey.dir/simple_io.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/doomrecey.dir/simple_io.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrijadjuric/Sites/GitHub/doomrecey/simple_io.c -o CMakeFiles/doomrecey.dir/simple_io.c.s
+CMakeFiles/doomrecey.dir/practice_part_one/simple_io.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/doomrecey.dir/practice_part_one/simple_io.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_one/simple_io.c -o CMakeFiles/doomrecey.dir/practice_part_one/simple_io.c.s
 
 # Object files for target doomrecey
 doomrecey_OBJECTS = \
 "CMakeFiles/doomrecey.dir/main.c.o" \
-"CMakeFiles/doomrecey.dir/simple_io.c.o"
+"CMakeFiles/doomrecey.dir/practice_part_one/simple_io.c.o"
 
 # External object files for target doomrecey
 doomrecey_EXTERNAL_OBJECTS =
 
 doomrecey: CMakeFiles/doomrecey.dir/main.c.o
-doomrecey: CMakeFiles/doomrecey.dir/simple_io.c.o
+doomrecey: CMakeFiles/doomrecey.dir/practice_part_one/simple_io.c.o
 doomrecey: CMakeFiles/doomrecey.dir/build.make
 doomrecey: CMakeFiles/doomrecey.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/andrijadjuric/Sites/GitHub/doomrecey/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable doomrecey"

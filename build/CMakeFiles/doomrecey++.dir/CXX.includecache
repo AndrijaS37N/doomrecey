@@ -6,15 +6,33 @@
 
 #IncludeRegexTransform: 
 
-/Users/andrijadjuric/Sites/GitHub/doomrecey/animal.hpp
-
-/Users/andrijadjuric/Sites/GitHub/doomrecey/dog.cpp
+/Users/andrijadjuric/Sites/GitHub/doomrecey/main.cpp
 iostream
 -
-animal.hpp
-/Users/andrijadjuric/Sites/GitHub/doomrecey/animal.hpp
-dog.hpp
-/Users/andrijadjuric/Sites/GitHub/doomrecey/dog.hpp
+practice_part_one/activations.hpp
+/Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_one/activations.hpp
 
-/Users/andrijadjuric/Sites/GitHub/doomrecey/dog.hpp
+/Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_one/activations.hpp
+iostream
+-
+simple_io.hpp
+/Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_one/simple_io.hpp
+intermediate_io.hpp
+/Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_one/intermediate_io.hpp
+animal.hpp
+/Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_one/animal.hpp
+dog.hpp
+/Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_one/dog.hpp
+cat.hpp
+/Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_one/cat.hpp
+
+/Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_one/animal.hpp
+
+/Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_one/cat.hpp
+
+/Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_one/dog.hpp
+
+/Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_one/intermediate_io.hpp
+
+/Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_one/simple_io.hpp
 

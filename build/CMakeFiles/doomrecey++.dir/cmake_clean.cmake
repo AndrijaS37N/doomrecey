@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/doomrecey++.dir/main.cpp.o"
-  "CMakeFiles/doomrecey++.dir/simple_io.cpp.o"
-  "CMakeFiles/doomrecey++.dir/intermediate_io.cpp.o"
-  "CMakeFiles/doomrecey++.dir/animal.cpp.o"
-  "CMakeFiles/doomrecey++.dir/dog.cpp.o"
-  "CMakeFiles/doomrecey++.dir/cat.cpp.o"
+  "CMakeFiles/doomrecey++.dir/practice_part_one/simple_io.cpp.o"
+  "CMakeFiles/doomrecey++.dir/practice_part_one/intermediate_io.cpp.o"
+  "CMakeFiles/doomrecey++.dir/practice_part_one/animal.cpp.o"
+  "CMakeFiles/doomrecey++.dir/practice_part_one/dog.cpp.o"
+  "CMakeFiles/doomrecey++.dir/practice_part_one/cat.cpp.o"
   "doomrecey++.pdb"
   "doomrecey++"
 )

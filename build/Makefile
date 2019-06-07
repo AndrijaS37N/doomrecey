@@ -111,71 +111,179 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named doomrecey
+# Target rules for targets named doomrecey++
 
 # Build rule for target.
-doomrecey: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 doomrecey
-.PHONY : doomrecey
+doomrecey++: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 doomrecey++
+.PHONY : doomrecey++
 
 # fast build rule for target.
-doomrecey/fast:
-	$(MAKE) -f CMakeFiles/doomrecey.dir/build.make CMakeFiles/doomrecey.dir/build
-.PHONY : doomrecey/fast
+doomrecey++/fast:
+	$(MAKE) -f CMakeFiles/doomrecey++.dir/build.make CMakeFiles/doomrecey++.dir/build
+.PHONY : doomrecey++/fast
 
-main.o: main.c.o
+main.o: main.cpp.o
 
 .PHONY : main.o
 
 # target to build an object file
-main.c.o:
-	$(MAKE) -f CMakeFiles/doomrecey.dir/build.make CMakeFiles/doomrecey.dir/main.c.o
-.PHONY : main.c.o
+main.cpp.o:
+	$(MAKE) -f CMakeFiles/doomrecey++.dir/build.make CMakeFiles/doomrecey++.dir/main.cpp.o
+.PHONY : main.cpp.o
 
-main.i: main.c.i
+main.i: main.cpp.i
 
 .PHONY : main.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles/doomrecey.dir/build.make CMakeFiles/doomrecey.dir/main.c.i
-.PHONY : main.c.i
+main.cpp.i:
+	$(MAKE) -f CMakeFiles/doomrecey++.dir/build.make CMakeFiles/doomrecey++.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-main.s: main.c.s
+main.s: main.cpp.s
 
 .PHONY : main.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles/doomrecey.dir/build.make CMakeFiles/doomrecey.dir/main.c.s
-.PHONY : main.c.s
+main.cpp.s:
+	$(MAKE) -f CMakeFiles/doomrecey++.dir/build.make CMakeFiles/doomrecey++.dir/main.cpp.s
+.PHONY : main.cpp.s
 
-simple_io.o: simple_io.c.o
+practice_part_one/animal.o: practice_part_one/animal.cpp.o
 
-.PHONY : simple_io.o
+.PHONY : practice_part_one/animal.o
 
 # target to build an object file
-simple_io.c.o:
-	$(MAKE) -f CMakeFiles/doomrecey.dir/build.make CMakeFiles/doomrecey.dir/simple_io.c.o
-.PHONY : simple_io.c.o
+practice_part_one/animal.cpp.o:
+	$(MAKE) -f CMakeFiles/doomrecey++.dir/build.make CMakeFiles/doomrecey++.dir/practice_part_one/animal.cpp.o
+.PHONY : practice_part_one/animal.cpp.o
 
-simple_io.i: simple_io.c.i
+practice_part_one/animal.i: practice_part_one/animal.cpp.i
 
-.PHONY : simple_io.i
+.PHONY : practice_part_one/animal.i
 
 # target to preprocess a source file
-simple_io.c.i:
-	$(MAKE) -f CMakeFiles/doomrecey.dir/build.make CMakeFiles/doomrecey.dir/simple_io.c.i
-.PHONY : simple_io.c.i
+practice_part_one/animal.cpp.i:
+	$(MAKE) -f CMakeFiles/doomrecey++.dir/build.make CMakeFiles/doomrecey++.dir/practice_part_one/animal.cpp.i
+.PHONY : practice_part_one/animal.cpp.i
 
-simple_io.s: simple_io.c.s
+practice_part_one/animal.s: practice_part_one/animal.cpp.s
 
-.PHONY : simple_io.s
+.PHONY : practice_part_one/animal.s
 
 # target to generate assembly for a file
-simple_io.c.s:
-	$(MAKE) -f CMakeFiles/doomrecey.dir/build.make CMakeFiles/doomrecey.dir/simple_io.c.s
-.PHONY : simple_io.c.s
+practice_part_one/animal.cpp.s:
+	$(MAKE) -f CMakeFiles/doomrecey++.dir/build.make CMakeFiles/doomrecey++.dir/practice_part_one/animal.cpp.s
+.PHONY : practice_part_one/animal.cpp.s
+
+practice_part_one/cat.o: practice_part_one/cat.cpp.o
+
+.PHONY : practice_part_one/cat.o
+
+# target to build an object file
+practice_part_one/cat.cpp.o:
+	$(MAKE) -f CMakeFiles/doomrecey++.dir/build.make CMakeFiles/doomrecey++.dir/practice_part_one/cat.cpp.o
+.PHONY : practice_part_one/cat.cpp.o
+
+practice_part_one/cat.i: practice_part_one/cat.cpp.i
+
+.PHONY : practice_part_one/cat.i
+
+# target to preprocess a source file
+practice_part_one/cat.cpp.i:
+	$(MAKE) -f CMakeFiles/doomrecey++.dir/build.make CMakeFiles/doomrecey++.dir/practice_part_one/cat.cpp.i
+.PHONY : practice_part_one/cat.cpp.i
+
+practice_part_one/cat.s: practice_part_one/cat.cpp.s
+
+.PHONY : practice_part_one/cat.s
+
+# target to generate assembly for a file
+practice_part_one/cat.cpp.s:
+	$(MAKE) -f CMakeFiles/doomrecey++.dir/build.make CMakeFiles/doomrecey++.dir/practice_part_one/cat.cpp.s
+.PHONY : practice_part_one/cat.cpp.s
+
+practice_part_one/dog.o: practice_part_one/dog.cpp.o
+
+.PHONY : practice_part_one/dog.o
+
+# target to build an object file
+practice_part_one/dog.cpp.o:
+	$(MAKE) -f CMakeFiles/doomrecey++.dir/build.make CMakeFiles/doomrecey++.dir/practice_part_one/dog.cpp.o
+.PHONY : practice_part_one/dog.cpp.o
+
+practice_part_one/dog.i: practice_part_one/dog.cpp.i
+
+.PHONY : practice_part_one/dog.i
+
+# target to preprocess a source file
+practice_part_one/dog.cpp.i:
+	$(MAKE) -f CMakeFiles/doomrecey++.dir/build.make CMakeFiles/doomrecey++.dir/practice_part_one/dog.cpp.i
+.PHONY : practice_part_one/dog.cpp.i
+
+practice_part_one/dog.s: practice_part_one/dog.cpp.s
+
+.PHONY : practice_part_one/dog.s
+
+# target to generate assembly for a file
+practice_part_one/dog.cpp.s:
+	$(MAKE) -f CMakeFiles/doomrecey++.dir/build.make CMakeFiles/doomrecey++.dir/practice_part_one/dog.cpp.s
+.PHONY : practice_part_one/dog.cpp.s
+
+practice_part_one/intermediate_io.o: practice_part_one/intermediate_io.cpp.o
+
+.PHONY : practice_part_one/intermediate_io.o
+
+# target to build an object file
+practice_part_one/intermediate_io.cpp.o:
+	$(MAKE) -f CMakeFiles/doomrecey++.dir/build.make CMakeFiles/doomrecey++.dir/practice_part_one/intermediate_io.cpp.o
+.PHONY : practice_part_one/intermediate_io.cpp.o
+
+practice_part_one/intermediate_io.i: practice_part_one/intermediate_io.cpp.i
+
+.PHONY : practice_part_one/intermediate_io.i
+
+# target to preprocess a source file
+practice_part_one/intermediate_io.cpp.i:
+	$(MAKE) -f CMakeFiles/doomrecey++.dir/build.make CMakeFiles/doomrecey++.dir/practice_part_one/intermediate_io.cpp.i
+.PHONY : practice_part_one/intermediate_io.cpp.i
+
+practice_part_one/intermediate_io.s: practice_part_one/intermediate_io.cpp.s
+
+.PHONY : practice_part_one/intermediate_io.s
+
+# target to generate assembly for a file
+practice_part_one/intermediate_io.cpp.s:
+	$(MAKE) -f CMakeFiles/doomrecey++.dir/build.make CMakeFiles/doomrecey++.dir/practice_part_one/intermediate_io.cpp.s
+.PHONY : practice_part_one/intermediate_io.cpp.s
+
+practice_part_one/simple_io.o: practice_part_one/simple_io.cpp.o
+
+.PHONY : practice_part_one/simple_io.o
+
+# target to build an object file
+practice_part_one/simple_io.cpp.o:
+	$(MAKE) -f CMakeFiles/doomrecey++.dir/build.make CMakeFiles/doomrecey++.dir/practice_part_one/simple_io.cpp.o
+.PHONY : practice_part_one/simple_io.cpp.o
+
+practice_part_one/simple_io.i: practice_part_one/simple_io.cpp.i
+
+.PHONY : practice_part_one/simple_io.i
+
+# target to preprocess a source file
+practice_part_one/simple_io.cpp.i:
+	$(MAKE) -f CMakeFiles/doomrecey++.dir/build.make CMakeFiles/doomrecey++.dir/practice_part_one/simple_io.cpp.i
+.PHONY : practice_part_one/simple_io.cpp.i
+
+practice_part_one/simple_io.s: practice_part_one/simple_io.cpp.s
+
+.PHONY : practice_part_one/simple_io.s
+
+# target to generate assembly for a file
+practice_part_one/simple_io.cpp.s:
+	$(MAKE) -f CMakeFiles/doomrecey++.dir/build.make CMakeFiles/doomrecey++.dir/practice_part_one/simple_io.cpp.s
+.PHONY : practice_part_one/simple_io.cpp.s
 
 # Help Target
 help:
@@ -185,13 +293,25 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... doomrecey"
+	@echo "... doomrecey++"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... simple_io.o"
-	@echo "... simple_io.i"
-	@echo "... simple_io.s"
+	@echo "... practice_part_one/animal.o"
+	@echo "... practice_part_one/animal.i"
+	@echo "... practice_part_one/animal.s"
+	@echo "... practice_part_one/cat.o"
+	@echo "... practice_part_one/cat.i"
+	@echo "... practice_part_one/cat.s"
+	@echo "... practice_part_one/dog.o"
+	@echo "... practice_part_one/dog.i"
+	@echo "... practice_part_one/dog.s"
+	@echo "... practice_part_one/intermediate_io.o"
+	@echo "... practice_part_one/intermediate_io.i"
+	@echo "... practice_part_one/intermediate_io.s"
+	@echo "... practice_part_one/simple_io.o"
+	@echo "... practice_part_one/simple_io.i"
+	@echo "... practice_part_one/simple_io.s"
 .PHONY : help
 
 

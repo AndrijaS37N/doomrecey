@@ -5,7 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/Users/andrijadjuric/Sites/GitHub/doomrecey/main.c" "/Users/andrijadjuric/Sites/GitHub/doomrecey/build/CMakeFiles/doomrecey.dir/main.c.o"
-  "/Users/andrijadjuric/Sites/GitHub/doomrecey/simple_io.c" "/Users/andrijadjuric/Sites/GitHub/doomrecey/build/CMakeFiles/doomrecey.dir/simple_io.c.o"
+  "/Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_one/simple_io.c" "/Users/andrijadjuric/Sites/GitHub/doomrecey/build/CMakeFiles/doomrecey.dir/practice_part_one/simple_io.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

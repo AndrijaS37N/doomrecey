@@ -5,7 +5,7 @@
   <li>Compiling with G++ and GCC.</li>
   <li>Has a small Python script for some simple help.</li>
   <li>Potential unstructured code for practising purposes.</li>
-  <li>Using CMake now for building the project.</li>
+  <li>Using CMake (like a noob) for building the project.</li>
 </ul>
 
 Note #1: Simple compiling reminders.

@@ -7,6 +7,10 @@
 #IncludeRegexTransform: 
 
 /Users/andrijadjuric/Sites/GitHub/doomrecey/main.c
+practice_part_one/activations.h
+/Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_one/activations.h
+
+/Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_one/activations.h
 stdio.h
 -
 math.h
@@ -16,7 +20,7 @@ sys/time.h
 unistd.h
 -
 simple_io.h
-/Users/andrijadjuric/Sites/GitHub/doomrecey/simple_io.h
+/Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_one/simple_io.h
 
-/Users/andrijadjuric/Sites/GitHub/doomrecey/simple_io.h
+/Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_one/simple_io.h
 

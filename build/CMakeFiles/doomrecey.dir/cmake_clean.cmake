@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/doomrecey.dir/main.c.o"
-  "CMakeFiles/doomrecey.dir/simple_io.c.o"
+  "CMakeFiles/doomrecey.dir/practice_part_one/simple_io.c.o"
   "doomrecey.pdb"
   "doomrecey"
 )
