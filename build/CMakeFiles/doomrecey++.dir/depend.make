@@ -8,7 +8,10 @@ CMakeFiles/doomrecey++.dir/main.cpp.o: ../practice_part_one/dog.hpp
 CMakeFiles/doomrecey++.dir/main.cpp.o: ../practice_part_one/intermediate_io.hpp
 CMakeFiles/doomrecey++.dir/main.cpp.o: ../practice_part_one/part_one_linker.hpp
 CMakeFiles/doomrecey++.dir/main.cpp.o: ../practice_part_one/simple_io.hpp
+CMakeFiles/doomrecey++.dir/main.cpp.o: ../practice_part_two/husky.hpp
+CMakeFiles/doomrecey++.dir/main.cpp.o: ../practice_part_two/malamute.hpp
 CMakeFiles/doomrecey++.dir/main.cpp.o: ../practice_part_two/part_two_linker.hpp
+CMakeFiles/doomrecey++.dir/main.cpp.o: ../practice_part_two/yawn.hpp
 
 CMakeFiles/doomrecey++.dir/practice_part_one/animal.cpp.o: ../practice_part_one/animal.cpp
 CMakeFiles/doomrecey++.dir/practice_part_one/animal.cpp.o: ../practice_part_one/animal.hpp
