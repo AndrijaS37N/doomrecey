@@ -285,6 +285,87 @@ practice_part_one/simple_io.cpp.s:
 	$(MAKE) -f CMakeFiles/doomrecey++.dir/build.make CMakeFiles/doomrecey++.dir/practice_part_one/simple_io.cpp.s
 .PHONY : practice_part_one/simple_io.cpp.s
 
+practice_part_two/husky.o: practice_part_two/husky.cpp.o
+
+.PHONY : practice_part_two/husky.o
+
+# target to build an object file
+practice_part_two/husky.cpp.o:
+	$(MAKE) -f CMakeFiles/doomrecey++.dir/build.make CMakeFiles/doomrecey++.dir/practice_part_two/husky.cpp.o
+.PHONY : practice_part_two/husky.cpp.o
+
+practice_part_two/husky.i: practice_part_two/husky.cpp.i
+
+.PHONY : practice_part_two/husky.i
+
+# target to preprocess a source file
+practice_part_two/husky.cpp.i:
+	$(MAKE) -f CMakeFiles/doomrecey++.dir/build.make CMakeFiles/doomrecey++.dir/practice_part_two/husky.cpp.i
+.PHONY : practice_part_two/husky.cpp.i
+
+practice_part_two/husky.s: practice_part_two/husky.cpp.s
+
+.PHONY : practice_part_two/husky.s
+
+# target to generate assembly for a file
+practice_part_two/husky.cpp.s:
+	$(MAKE) -f CMakeFiles/doomrecey++.dir/build.make CMakeFiles/doomrecey++.dir/practice_part_two/husky.cpp.s
+.PHONY : practice_part_two/husky.cpp.s
+
+practice_part_two/malamute.o: practice_part_two/malamute.cpp.o
+
+.PHONY : practice_part_two/malamute.o
+
+# target to build an object file
+practice_part_two/malamute.cpp.o:
+	$(MAKE) -f CMakeFiles/doomrecey++.dir/build.make CMakeFiles/doomrecey++.dir/practice_part_two/malamute.cpp.o
+.PHONY : practice_part_two/malamute.cpp.o
+
+practice_part_two/malamute.i: practice_part_two/malamute.cpp.i
+
+.PHONY : practice_part_two/malamute.i
+
+# target to preprocess a source file
+practice_part_two/malamute.cpp.i:
+	$(MAKE) -f CMakeFiles/doomrecey++.dir/build.make CMakeFiles/doomrecey++.dir/practice_part_two/malamute.cpp.i
+.PHONY : practice_part_two/malamute.cpp.i
+
+practice_part_two/malamute.s: practice_part_two/malamute.cpp.s
+
+.PHONY : practice_part_two/malamute.s
+
+# target to generate assembly for a file
+practice_part_two/malamute.cpp.s:
+	$(MAKE) -f CMakeFiles/doomrecey++.dir/build.make CMakeFiles/doomrecey++.dir/practice_part_two/malamute.cpp.s
+.PHONY : practice_part_two/malamute.cpp.s
+
+practice_part_two/yawn.o: practice_part_two/yawn.cpp.o
+
+.PHONY : practice_part_two/yawn.o
+
+# target to build an object file
+practice_part_two/yawn.cpp.o:
+	$(MAKE) -f CMakeFiles/doomrecey++.dir/build.make CMakeFiles/doomrecey++.dir/practice_part_two/yawn.cpp.o
+.PHONY : practice_part_two/yawn.cpp.o
+
+practice_part_two/yawn.i: practice_part_two/yawn.cpp.i
+
+.PHONY : practice_part_two/yawn.i
+
+# target to preprocess a source file
+practice_part_two/yawn.cpp.i:
+	$(MAKE) -f CMakeFiles/doomrecey++.dir/build.make CMakeFiles/doomrecey++.dir/practice_part_two/yawn.cpp.i
+.PHONY : practice_part_two/yawn.cpp.i
+
+practice_part_two/yawn.s: practice_part_two/yawn.cpp.s
+
+.PHONY : practice_part_two/yawn.s
+
+# target to generate assembly for a file
+practice_part_two/yawn.cpp.s:
+	$(MAKE) -f CMakeFiles/doomrecey++.dir/build.make CMakeFiles/doomrecey++.dir/practice_part_two/yawn.cpp.s
+.PHONY : practice_part_two/yawn.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -312,6 +393,15 @@ help:
 	@echo "... practice_part_one/simple_io.o"
 	@echo "... practice_part_one/simple_io.i"
 	@echo "... practice_part_one/simple_io.s"
+	@echo "... practice_part_two/husky.o"
+	@echo "... practice_part_two/husky.i"
+	@echo "... practice_part_two/husky.s"
+	@echo "... practice_part_two/malamute.o"
+	@echo "... practice_part_two/malamute.i"
+	@echo "... practice_part_two/malamute.s"
+	@echo "... practice_part_two/yawn.o"
+	@echo "... practice_part_two/yawn.i"
+	@echo "... practice_part_two/yawn.s"
 .PHONY : help
 
 

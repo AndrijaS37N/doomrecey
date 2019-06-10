@@ -31,3 +31,13 @@ CMakeFiles/doomrecey++.dir/practice_part_one/intermediate_io.cpp.o: ../practice_
 CMakeFiles/doomrecey++.dir/practice_part_one/simple_io.cpp.o: ../practice_part_one/simple_io.cpp
 CMakeFiles/doomrecey++.dir/practice_part_one/simple_io.cpp.o: ../practice_part_one/simple_io.hpp
 
+CMakeFiles/doomrecey++.dir/practice_part_two/husky.cpp.o: ../practice_part_two/husky.cpp
+CMakeFiles/doomrecey++.dir/practice_part_two/husky.cpp.o: ../practice_part_two/husky.hpp
+
+CMakeFiles/doomrecey++.dir/practice_part_two/malamute.cpp.o: ../practice_part_two/malamute.cpp
+CMakeFiles/doomrecey++.dir/practice_part_two/malamute.cpp.o: ../practice_part_two/malamute.hpp
+CMakeFiles/doomrecey++.dir/practice_part_two/malamute.cpp.o: ../practice_part_two/yawn.hpp
+
+CMakeFiles/doomrecey++.dir/practice_part_two/yawn.cpp.o: ../practice_part_two/yawn.cpp
+CMakeFiles/doomrecey++.dir/practice_part_two/yawn.cpp.o: ../practice_part_two/yawn.hpp
+

@@ -135,6 +135,45 @@ CMakeFiles/doomrecey++.dir/practice_part_one/cat.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/doomrecey++.dir/practice_part_one/cat.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_one/cat.cpp -o CMakeFiles/doomrecey++.dir/practice_part_one/cat.cpp.s
 
+CMakeFiles/doomrecey++.dir/practice_part_two/husky.cpp.o: CMakeFiles/doomrecey++.dir/flags.make
+CMakeFiles/doomrecey++.dir/practice_part_two/husky.cpp.o: ../practice_part_two/husky.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrijadjuric/Sites/GitHub/doomrecey/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/doomrecey++.dir/practice_part_two/husky.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/doomrecey++.dir/practice_part_two/husky.cpp.o -c /Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_two/husky.cpp
+
+CMakeFiles/doomrecey++.dir/practice_part_two/husky.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/doomrecey++.dir/practice_part_two/husky.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_two/husky.cpp > CMakeFiles/doomrecey++.dir/practice_part_two/husky.cpp.i
+
+CMakeFiles/doomrecey++.dir/practice_part_two/husky.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/doomrecey++.dir/practice_part_two/husky.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_two/husky.cpp -o CMakeFiles/doomrecey++.dir/practice_part_two/husky.cpp.s
+
+CMakeFiles/doomrecey++.dir/practice_part_two/malamute.cpp.o: CMakeFiles/doomrecey++.dir/flags.make
+CMakeFiles/doomrecey++.dir/practice_part_two/malamute.cpp.o: ../practice_part_two/malamute.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrijadjuric/Sites/GitHub/doomrecey/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/doomrecey++.dir/practice_part_two/malamute.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/doomrecey++.dir/practice_part_two/malamute.cpp.o -c /Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_two/malamute.cpp
+
+CMakeFiles/doomrecey++.dir/practice_part_two/malamute.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/doomrecey++.dir/practice_part_two/malamute.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_two/malamute.cpp > CMakeFiles/doomrecey++.dir/practice_part_two/malamute.cpp.i
+
+CMakeFiles/doomrecey++.dir/practice_part_two/malamute.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/doomrecey++.dir/practice_part_two/malamute.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_two/malamute.cpp -o CMakeFiles/doomrecey++.dir/practice_part_two/malamute.cpp.s
+
+CMakeFiles/doomrecey++.dir/practice_part_two/yawn.cpp.o: CMakeFiles/doomrecey++.dir/flags.make
+CMakeFiles/doomrecey++.dir/practice_part_two/yawn.cpp.o: ../practice_part_two/yawn.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andrijadjuric/Sites/GitHub/doomrecey/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/doomrecey++.dir/practice_part_two/yawn.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/doomrecey++.dir/practice_part_two/yawn.cpp.o -c /Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_two/yawn.cpp
+
+CMakeFiles/doomrecey++.dir/practice_part_two/yawn.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/doomrecey++.dir/practice_part_two/yawn.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_two/yawn.cpp > CMakeFiles/doomrecey++.dir/practice_part_two/yawn.cpp.i
+
+CMakeFiles/doomrecey++.dir/practice_part_two/yawn.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/doomrecey++.dir/practice_part_two/yawn.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_two/yawn.cpp -o CMakeFiles/doomrecey++.dir/practice_part_two/yawn.cpp.s
+
 # Object files for target doomrecey++
 doomrecey_______OBJECTS = \
 "CMakeFiles/doomrecey++.dir/main.cpp.o" \
@@ -142,7 +181,10 @@ doomrecey_______OBJECTS = \
 "CMakeFiles/doomrecey++.dir/practice_part_one/intermediate_io.cpp.o" \
 "CMakeFiles/doomrecey++.dir/practice_part_one/animal.cpp.o" \
 "CMakeFiles/doomrecey++.dir/practice_part_one/dog.cpp.o" \
-"CMakeFiles/doomrecey++.dir/practice_part_one/cat.cpp.o"
+"CMakeFiles/doomrecey++.dir/practice_part_one/cat.cpp.o" \
+"CMakeFiles/doomrecey++.dir/practice_part_two/husky.cpp.o" \
+"CMakeFiles/doomrecey++.dir/practice_part_two/malamute.cpp.o" \
+"CMakeFiles/doomrecey++.dir/practice_part_two/yawn.cpp.o"
 
 # External object files for target doomrecey++
 doomrecey_______EXTERNAL_OBJECTS =
@@ -153,9 +195,12 @@ doomrecey++: CMakeFiles/doomrecey++.dir/practice_part_one/intermediate_io.cpp.o
 doomrecey++: CMakeFiles/doomrecey++.dir/practice_part_one/animal.cpp.o
 doomrecey++: CMakeFiles/doomrecey++.dir/practice_part_one/dog.cpp.o
 doomrecey++: CMakeFiles/doomrecey++.dir/practice_part_one/cat.cpp.o
+doomrecey++: CMakeFiles/doomrecey++.dir/practice_part_two/husky.cpp.o
+doomrecey++: CMakeFiles/doomrecey++.dir/practice_part_two/malamute.cpp.o
+doomrecey++: CMakeFiles/doomrecey++.dir/practice_part_two/yawn.cpp.o
 doomrecey++: CMakeFiles/doomrecey++.dir/build.make
 doomrecey++: CMakeFiles/doomrecey++.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/andrijadjuric/Sites/GitHub/doomrecey/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable doomrecey++"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/andrijadjuric/Sites/GitHub/doomrecey/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable doomrecey++"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/doomrecey++.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -3,24 +3,19 @@
 
 #include <vector>
 
-// example : taking the global static variable from husky.hpp
-extern int static_waffle_count;
+// example : taking a declared global constant from husky.hpp and defining it here
+const int global_avarage_barks = 7;
 
 class Malamute
 {
 private:
-    // incomplete type not allow?
-    // found older working examples that work just like this but this seems not to be valid anymore
-    // must find a solution
-    std::vector<Yawn> yawns_list;
+    std::vector<Yawn> yawns;
 
 public:
-    void add_yawn(Yawn yawn);
-    // let's say this is a static method
-    static void print_waffle_count();
-    // void set_yawns_list(std::vector<Yawn> &yawns_list);
-    // std::vector<Yawn> &get_yawns_list() { return this->yawns_list; };
-    void print_yawns_list();
+    // static void print_waffle_count_mal();
+    void set_yawns(std::vector<Yawn> yawns) { this->yawns = yawns; };
+    std::vector<Yawn> get_yawns() { return this->yawns; };
+    void print_global_avarage_barks() { std::cout << "Global avarage barks (from malamute's view): " << global_avarage_barks << '\n'; };
 };
 
 #endif /* malamute_hpp */

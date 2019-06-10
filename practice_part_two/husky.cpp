@@ -1,30 +1,25 @@
 #include <iostream>
 #include "husky.hpp"
 
-int Husky::waffles_eaten = 0;
+int Husky::waffle_count = 0;
 
-void print_waffle_count()
-{
-    std::cout << "Husky is looking at the waffle count (static int): " << static_waffle_count << '\n';
-}
-
-void add_waffles(int waffle_count)
+void Husky::add_extra_waffles(int waffle_count)
 {
     int added_waffles = rand() % 10 + 1;
-    std::cout << "I'll add " << added_waffles << " more waffles!\n";
-    waffle_count = +added_waffles;
+    std::cout << "Husky: I'll add " << added_waffles << " more waffles!\n";
+    Husky::waffle_count = waffle_count + added_waffles;
 }
 
 Husky::Husky(int waffle_count)
 {
-    add_waffles(waffle_count);
-    static_waffle_count = waffle_count;
+    std::cout << "A new husky is adding 1 waffle to the already brought amount of " << waffle_count << "...\n";
+    waffle_count++;
+    std::cout << "And some hidden, unknown number of waffles...\n";
+    add_extra_waffles(waffle_count);
 }
 
-void eat_waffle()
+void Husky::eat_waffle()
 {
-    std::cout << "Eating waffle...\n";
-    static_waffle_count--;
-    Husky::waffles_eaten++;
-    std::cout << Husky::waffles_eaten << " waffles eaten\n";
+    std::cout << "Husky: Eating waffle...\n";
+    waffle_count--;
 }

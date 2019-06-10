@@ -1,16 +1,17 @@
 #ifndef husky_hpp
 #define husky_hpp
 
-int static_waffle_count;
+extern const int global_avarage_barks;
 
 class Husky
 {
 public:
-    Husky(int waffle_number);
-    void add_waffles(int waffle_count);
-    void print_waffle_count();
+    Husky(int waffles);
+    void add_extra_waffles(int waffles);
     void eat_waffle();
-    static int waffles_eaten;
+    static int waffle_count;
+    int waffles_eaten;
+    void print_global_avarage_barks() { std::cout << "Global avarage barks (from husky's view): " << global_avarage_barks << '\n'; };
 };
 
 #endif /* husky_hpp */

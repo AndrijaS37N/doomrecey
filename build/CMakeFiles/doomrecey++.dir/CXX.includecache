@@ -38,6 +38,14 @@ cat.hpp
 
 /Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_two/husky.hpp
 
+/Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_two/malamute.cpp
+iostream
+-
+yawn.hpp
+/Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_two/yawn.hpp
+malamute.hpp
+/Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_two/malamute.hpp
+
 /Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_two/malamute.hpp
 vector
 -
@@ -45,12 +53,10 @@ vector
 /Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_two/part_two_linker.hpp
 yawn.hpp
 /Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_two/yawn.hpp
-husky.hpp
-/Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_two/husky.hpp
-vector
--
 malamute.hpp
 /Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_two/malamute.hpp
+husky.hpp
+/Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_two/husky.hpp
 
 /Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_two/yawn.hpp
 

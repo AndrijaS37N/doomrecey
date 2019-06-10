@@ -5,6 +5,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/doomrecey++.dir/practice_part_one/animal.cpp.o"
   "CMakeFiles/doomrecey++.dir/practice_part_one/dog.cpp.o"
   "CMakeFiles/doomrecey++.dir/practice_part_one/cat.cpp.o"
+  "CMakeFiles/doomrecey++.dir/practice_part_two/husky.cpp.o"
+  "CMakeFiles/doomrecey++.dir/practice_part_two/malamute.cpp.o"
+  "CMakeFiles/doomrecey++.dir/practice_part_two/yawn.cpp.o"
   "doomrecey++.pdb"
   "doomrecey++"
 )
