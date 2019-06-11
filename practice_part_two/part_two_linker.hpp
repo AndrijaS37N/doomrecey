@@ -1,11 +1,12 @@
 #ifndef part_two_linker_hpp
 #define part_two_linker_hpp
 
+#include "more_functions.hpp"
 #include "yawn.hpp"
 #include "malamute.hpp"
 #include "husky.hpp"
 
-// Undefined symbols for architecture x86_64: -> DON'T forget to compile new .cpp files!
+// Undefined symbols for architecture x86_64: -> DON'T forget to compile newly created .cpp files!
 
 void activate_part_two()
 {
@@ -13,28 +14,38 @@ void activate_part_two()
     Husky husky(3);
     Malamute malamute;
 
-    // we'll pass this to the malamute
-    std::vector<Yawn> yawns;
-
     // let's add 3 yawns
-    for (double i = 0; i < 3; i++)
+    std::cout << "Yawns loop:\n";
+    for (int i = 0; i < 3; i++)
     {
-        Yawn yawn(1.2, "Yawn");
+        Yawn yawn(1.2, ("Yawn #" + std::to_string(i + 1)));
         yawn.set_duration(3.6);
         std::cout << "Get sound made string: " << yawn.get_sound_made() << "\nGet duration double: " << yawn.get_duration() << '\n';
-
-        // TODO -> add a add_yawn() function here instead of set_yawns (malamute)
-
-        yawns.emplace_back(yawn);
-        // std::cout << "Yawn: " << yawns[i].get_duration() << " | " << yawns[i].get_sound_made() << '\n';
+        malamute.add_yawn(yawn);
     }
 
     husky.print_global_avarage_barks();
     std::cout << "Print current waffle count: " << Husky::waffle_count << '\n';
-    husky.eat_waffle();
+
+    std::cout << "Eat a waffle let's say 3 times (while loop):\n";
+    int loop = 0;
+    while (loop < 3)
+    {
+        husky.eat_waffle();
+        loop++;
+    }
+
     std::cout << "Print current waffle count: " << Husky::waffle_count << '\n';
     malamute.print_global_avarage_barks();
-    malamute.set_yawns(yawns);
+    malamute.print_yawns();
+
+    MoreFunctions more_functions;
+    more_functions.printing_sizeofs();
+    int a = 4;
+    std::cout << "Passings: n = " << a << '\n';
+    more_functions.passing_by_pointer(&a);
+    std::cout << "Passings: n = " << a << " (after the value at the passed pointer was raised by 1)\n";
+    std::cout << "Passings: n = " << more_functions.return_passing_by_pointer(&a) << " (after returning a int* raised by 1)\n";
 
     // WIP
 }

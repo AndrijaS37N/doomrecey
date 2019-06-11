@@ -17,7 +17,7 @@ void getchar_time()
             continue;
 }
 
-void activate_part_one()
+void activate_part_one() // 'intermediate' + simple stuff
 {
     log_integer();
     log_double();

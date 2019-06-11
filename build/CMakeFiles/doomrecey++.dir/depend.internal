@@ -11,6 +11,7 @@ CMakeFiles/doomrecey++.dir/main.cpp.o
  /Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_one/simple_io.hpp
  /Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_two/husky.hpp
  /Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_two/malamute.hpp
+ /Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_two/more_functions.hpp
  /Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_two/part_two_linker.hpp
  /Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_two/yawn.hpp
 CMakeFiles/doomrecey++.dir/practice_part_one/animal.cpp.o
@@ -38,6 +39,9 @@ CMakeFiles/doomrecey++.dir/practice_part_two/malamute.cpp.o
  /Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_two/malamute.cpp
  /Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_two/malamute.hpp
  /Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_two/yawn.hpp
+CMakeFiles/doomrecey++.dir/practice_part_two/more_functions.cpp.o
+ /Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_two/more_functions.cpp
+ /Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_two/more_functions.hpp
 CMakeFiles/doomrecey++.dir/practice_part_two/yawn.cpp.o
  /Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_two/yawn.cpp
  /Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_two/yawn.hpp

@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_one/simple_io.cpp" "/Users/andrijadjuric/Sites/GitHub/doomrecey/build/CMakeFiles/doomrecey++.dir/practice_part_one/simple_io.cpp.o"
   "/Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_two/husky.cpp" "/Users/andrijadjuric/Sites/GitHub/doomrecey/build/CMakeFiles/doomrecey++.dir/practice_part_two/husky.cpp.o"
   "/Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_two/malamute.cpp" "/Users/andrijadjuric/Sites/GitHub/doomrecey/build/CMakeFiles/doomrecey++.dir/practice_part_two/malamute.cpp.o"
+  "/Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_two/more_functions.cpp" "/Users/andrijadjuric/Sites/GitHub/doomrecey/build/CMakeFiles/doomrecey++.dir/practice_part_two/more_functions.cpp.o"
   "/Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_two/yawn.cpp" "/Users/andrijadjuric/Sites/GitHub/doomrecey/build/CMakeFiles/doomrecey++.dir/practice_part_two/yawn.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

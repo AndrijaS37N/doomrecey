@@ -12,7 +12,8 @@ private:
     std::vector<Yawn> yawns;
 
 public:
-    // static void print_waffle_count_mal();
+    void add_yawn(Yawn yawn);
+    void print_yawns();
     void set_yawns(std::vector<Yawn> yawns) { this->yawns = yawns; };
     std::vector<Yawn> get_yawns() { return this->yawns; };
     void print_global_avarage_barks() { std::cout << "Global avarage barks (from malamute's view): " << global_avarage_barks << '\n'; };

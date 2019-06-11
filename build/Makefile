@@ -339,6 +339,33 @@ practice_part_two/malamute.cpp.s:
 	$(MAKE) -f CMakeFiles/doomrecey++.dir/build.make CMakeFiles/doomrecey++.dir/practice_part_two/malamute.cpp.s
 .PHONY : practice_part_two/malamute.cpp.s
 
+practice_part_two/more_functions.o: practice_part_two/more_functions.cpp.o
+
+.PHONY : practice_part_two/more_functions.o
+
+# target to build an object file
+practice_part_two/more_functions.cpp.o:
+	$(MAKE) -f CMakeFiles/doomrecey++.dir/build.make CMakeFiles/doomrecey++.dir/practice_part_two/more_functions.cpp.o
+.PHONY : practice_part_two/more_functions.cpp.o
+
+practice_part_two/more_functions.i: practice_part_two/more_functions.cpp.i
+
+.PHONY : practice_part_two/more_functions.i
+
+# target to preprocess a source file
+practice_part_two/more_functions.cpp.i:
+	$(MAKE) -f CMakeFiles/doomrecey++.dir/build.make CMakeFiles/doomrecey++.dir/practice_part_two/more_functions.cpp.i
+.PHONY : practice_part_two/more_functions.cpp.i
+
+practice_part_two/more_functions.s: practice_part_two/more_functions.cpp.s
+
+.PHONY : practice_part_two/more_functions.s
+
+# target to generate assembly for a file
+practice_part_two/more_functions.cpp.s:
+	$(MAKE) -f CMakeFiles/doomrecey++.dir/build.make CMakeFiles/doomrecey++.dir/practice_part_two/more_functions.cpp.s
+.PHONY : practice_part_two/more_functions.cpp.s
+
 practice_part_two/yawn.o: practice_part_two/yawn.cpp.o
 
 .PHONY : practice_part_two/yawn.o
@@ -399,6 +426,9 @@ help:
 	@echo "... practice_part_two/malamute.o"
 	@echo "... practice_part_two/malamute.i"
 	@echo "... practice_part_two/malamute.s"
+	@echo "... practice_part_two/more_functions.o"
+	@echo "... practice_part_two/more_functions.i"
+	@echo "... practice_part_two/more_functions.s"
 	@echo "... practice_part_two/yawn.o"
 	@echo "... practice_part_two/yawn.i"
 	@echo "... practice_part_two/yawn.s"

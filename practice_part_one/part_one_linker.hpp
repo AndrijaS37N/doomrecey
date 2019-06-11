@@ -8,7 +8,7 @@
 #include "dog.hpp"
 #include "cat.hpp"
 
-void activate_part_one()
+void activate_part_one() // 'intermediate' + simple stuff
 {
     SimpleIO simple_io;
     std::cout << "CPP messages:" << std::endl;
