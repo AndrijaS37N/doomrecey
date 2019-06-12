@@ -1,7 +1,7 @@
 #ifndef yawn_hpp
 #define yawn_hpp
 
-class Yawn // try out : use references everywhere
+class Yawn // try out : pass references everywhere
 {
 private:
     double duration;

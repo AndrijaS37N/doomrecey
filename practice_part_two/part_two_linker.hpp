@@ -45,7 +45,18 @@ void activate_part_two()
     std::cout << "Passings: n = " << a << '\n';
     more_functions.passing_by_pointer(&a);
     std::cout << "Passings: n = " << a << " (after the value at the passed pointer was raised by 1)\n";
-    std::cout << "Passings: n = " << more_functions.return_passing_by_pointer(&a) << " (after returning a int* raised by 1)\n";
+    std::cout << "Passings: n = " << more_functions.copy_passing_by_pointer(&a) << " (after returning a int* raised by 1)\n";
+
+    LinkedList linked_list;
+
+    for (int i = 0; i < 5; i++)
+        linked_list.push_element("Element #" + std::to_string(i));
+
+    linked_list.print_linked_list();
+    linked_list.reverse();
+    linked_list.print_linked_list();
+
+
 
     // WIP
 }
