@@ -28,6 +28,8 @@ public:
     void reverse();
     void print_linked_list();
     void push_element(const std::string &data);
+    Node *recursive_reverse(Node *node);
+    void void_recursive_reverse(Node **head_ref);
 };
 
 #endif /* more_functions_hpp */

@@ -11,8 +11,7 @@
 void activate_part_one() // 'intermediate' + simple stuff
 {
     SimpleIO simple_io;
-    std::cout << "CPP messages:" << std::endl;
-
+    
     // // Simple stuff 👇
 
     simple_io.call_hello_world();

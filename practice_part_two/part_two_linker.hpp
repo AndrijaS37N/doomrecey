@@ -6,7 +6,7 @@
 #include "malamute.hpp"
 #include "husky.hpp"
 
-// Undefined symbols for architecture x86_64: -> DON'T forget to compile newly created .cpp files!
+// MME AWARD, 'Most Moronic Error Award' goes to 🥇-> Undefined symbols for architecture x86_64: -> DON'T forget to compile newly created .cpp files!
 
 void activate_part_two()
 {
@@ -45,18 +45,22 @@ void activate_part_two()
     std::cout << "Passings: n = " << a << '\n';
     more_functions.passing_by_pointer(&a);
     std::cout << "Passings: n = " << a << " (after the value at the passed pointer was raised by 1)\n";
-    std::cout << "Passings: n = " << more_functions.copy_passing_by_pointer(&a) << " (after returning a int* raised by 1)\n";
+    std::cout << "Passings: n = " << more_functions.copy_passing_by_pointer(&a) << " (after returning a int raised by 1)\n";
 
     LinkedList linked_list;
 
-    for (int i = 0; i < 5; i++)
+    for (int i = 0; i < 4; i++)
         linked_list.push_element("Element #" + std::to_string(i));
 
     linked_list.print_linked_list();
     linked_list.reverse();
+    std::cout << "Reversing linked list (void recursive reverse)...\n";
+    linked_list.void_recursive_reverse(&linked_list.head);
+    std::cout << "Reversing linked list (node return recursive reverse)...\n";
+    linked_list.recursive_reverse(linked_list.head);
     linked_list.print_linked_list();
 
-
+    std::cout << std::endl;
 
     // WIP
 }
