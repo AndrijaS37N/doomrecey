@@ -8,8 +8,10 @@ const int MY_ARRAY_LENGHT = 7;
 // this is just for practice purposes
 typedef std::array<int, MY_ARRAY_LENGHT> std_array;
 
+const int MATRIX_ROW_SIZE = 3;
+
 class MoreFunctions
-{ 
+{
 public:
     void printing_sizeofs();
     void passing_by_pointer(int *number);
@@ -19,12 +21,24 @@ public:
     void call_print_letter_array();
     std_array my_array{1, 2, 3, 4, 5, 6, 7};
     void print_std_array();
-    int *my_matrix[3][7] = {
-        {0, 0, 0, 0, 0, 0, 0},
-        {0, 0, 0, 0, 0, 0, 0}, 
-        {0, 0, 0, 0, 0, 0, 0}
-    };
-    // TODO -> threads, matrices...
+
+    /* 
+        > semi-dynamic try-out
+        > stack alloc '3'
+        > int *my_matrix[MATRIX_ROW_SIZE];
+    */
+
+    // void print_my_matrix_semidyn(int &column);
+
+    // static version
+    int my_matrix_static[MATRIX_ROW_SIZE][7];
+    void matrix_print_A_static();
+
+    // dynamic version
+    int **my_matrix_dynamic;
+    void matrix_print_A_dynamic();
+
+    // TODO -> threads, maps, auto, heaps, stacks, qeues, algos, time + space
 };
 
 class Node

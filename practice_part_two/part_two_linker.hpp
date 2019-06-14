@@ -64,8 +64,12 @@ void activate_part_two()
     more_functions.call_print_letter_array();
     std::cout << std::endl;
     more_functions.print_std_array();
+    std::cout << std::endl;
+    more_functions.matrix_print_A_static();
+    std::cout << std::endl;
+    more_functions.matrix_print_A_dynamic();
 
-    // WIP
+    // WIPs
 }
 
 #endif /* part_two_linker_hpp */

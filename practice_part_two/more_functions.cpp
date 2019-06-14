@@ -144,7 +144,100 @@ void MoreFunctions::print_std_array()
         std::cout << "Number - " << my_array[i] << std::endl;
 }
 
-void matrix_function()
+// void MoreFunctions::print_my_matrix_semidyn(int &columns)
+// {
+//     for (int i = 0; i < MATRIX_ROW_SIZE; i++)
+//     {
+//         std::cout << '\n';
+//         for (int j = 0; j < columns; j++)
+//             std::cout << my_matrix[i][j] << ' ';
+//     }
+// }
+
+void MoreFunctions::matrix_print_A_static()
 {
-    // TODO
+    for (int i = 0; i < MATRIX_ROW_SIZE; i++)
+        for (int j = 0; j < 7; j++)
+            my_matrix_static[i][j] = 0;
+
+    // STATIC VERSION * fully-static matrix * 👇
+    my_matrix_static[0][3] = 1;
+    for (size_t i = 2; i <= 4; i++)
+        my_matrix_static[1][i] = 1;
+
+    my_matrix_static[2][1] = 1;
+    my_matrix_static[2][5] = 1;
+
+    // let's write this out for practise too
+    int rowss = sizeof(my_matrix_static) / sizeof(my_matrix_static[0]);
+    int columns = sizeof(my_matrix_static[0]) / sizeof(int);
+
+    std::cout << "Printing elements of my_matrix_static:\n";
+
+    for (int i = 0; i < rowss; i++)
+    {
+        std::cout << '\n';
+        for (int j = 0; j < columns; j++)
+            std::cout << my_matrix_static[i][j] << ' ';
+    }
+
+    std::cout << std::endl;
+    // 🎬
+
+    // SEMI-DYNAMIC MATRIX 👇 // ⚠️
+    // int columns;
+    // std::cout << "Enter column size for the my_matrix:\n";
+    // std::cin >> columns;
+
+    // for (int i = 0; i < MATRIX_ROW_SIZE; ++i)
+    //     my_matrix[i] = new int[columns]; // heap alloc, new -> 'column'
+
+    // print_my_matrix_semidyn(columns);
+
+    /* 
+        Writing 'A' in the matrix with number 1; Let's say write the 'A' only when the columns number is 7.
+    */
+    // if (columns == 7)
+    // {
+    //     my_matrix[0][3] = 1;
+    //     std::cout << my_matrix[0][3];
+    //     for (size_t i = 2; i <= 4; i++)
+    //         my_matrix[1][i] = 1;
+
+    //     my_matrix[2][1] = 1;
+    //     my_matrix[2][5] = 1;
+    //     print_my_matrix_semidyn(columns);
+    // }
+
+    // for (int i = 0; i < MATRIX_ROW_SIZE; ++i) // ⚠️
+    //     delete (my_matrix[i]);
+    // 🎬
+}
+
+void MoreFunctions::matrix_print_A_dynamic()
+{
+    int rows;
+    std::cout << "Input my_matrix_dynamic new *int[?]: ";
+    std::cin >> rows;
+    my_matrix_dynamic = new int *[rows];
+
+    int columns;
+    std::cout << "Input my_matrix_dynamic[i] new int[?]: ";
+    std::cin >> columns;
+    for (int i = 0; i < rows; ++i)
+        my_matrix_dynamic[i] = new int[columns];
+
+    for (int i = 0; i < rows; ++i)
+        for (int j = 0; j < columns; ++j)
+            my_matrix_dynamic[i][j] = 7;
+
+    // print it
+    for (int i = 0; i < rows; ++i)
+    { 
+        std::cout << '\n';
+        for (int j = 0; j < columns; ++j)
+            std::cout << my_matrix_dynamic[i][j] << ' ';
+    }
+
+    std::cout << std::endl;
 }
