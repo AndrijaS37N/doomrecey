@@ -121,9 +121,30 @@ void LinkedList::void_recursive_reverse(Node **head_ref)
     void_recursive_reverse(&rest);
     first->next_one->next_one = first;
 
-    // tricky step, see a diagram
     first->next_one = NULL;
 
     // fix the head pointer
     *head_ref = rest;
+}
+
+void MoreFunctions::print_letter_array(const char *letters[], size_t letters_size)
+{
+    std::cout << "Printing (char *[]) letter array:\n";
+    for (size_t i = 0; i < LETTERS_SIZE; i++)
+        std::cout << "Letter - " << letters[i] << std::endl;
+}
+
+// let's activate it like this redundantly with params
+void MoreFunctions::call_print_letter_array() { print_letter_array(letters, LETTERS_SIZE); }
+
+void MoreFunctions::print_std_array()
+{
+    std::cout << "Printing (std_array) int array:\n";
+    for (size_t i = 0; i < MY_ARRAY_LENGHT; i++)
+        std::cout << "Number - " << my_array[i] << std::endl;
+}
+
+void matrix_function()
+{
+    // TODO
 }

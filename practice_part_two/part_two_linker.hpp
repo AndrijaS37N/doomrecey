@@ -61,6 +61,9 @@ void activate_part_two()
     linked_list.print_linked_list();
 
     std::cout << std::endl;
+    more_functions.call_print_letter_array();
+    std::cout << std::endl;
+    more_functions.print_std_array();
 
     // WIP
 }

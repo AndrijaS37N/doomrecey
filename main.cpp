@@ -9,8 +9,8 @@ void cyan_input(const std::string &input)
 int main(int argc, const char *argv[])
 {
     system("clear");
-    cyan_input("PRACTICE PART #1 IN C++ 🧤");
-    activate_part_one();
+    // cyan_input("PRACTICE PART #1 IN C++ 🧤");
+    // activate_part_one();
 
     // TODO -> Go on practising with part #2.
     cyan_input("PRACTICE PART #2 IN C++ 🧤");
