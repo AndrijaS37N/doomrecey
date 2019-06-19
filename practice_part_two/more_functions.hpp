@@ -75,8 +75,8 @@ public:
 struct BinaryTreeNode
 {
     int value = 0;
-    BinaryTreeNode left_child = NULL;
-    BinaryTreeNode right_child = NULL;
+    struct BinaryTreeNode *left_child = NULL;
+    struct BinaryTreeNode *right_child = NULL;
 };
 
 #endif /* more_functions_hpp */

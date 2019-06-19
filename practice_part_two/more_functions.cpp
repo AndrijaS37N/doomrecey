@@ -169,12 +169,12 @@ void MoreFunctions::matrix_print_A_static()
     my_matrix_static[2][5] = 1;
 
     // let's write this out for practise too
-    int rowss = sizeof(my_matrix_static) / sizeof(my_matrix_static[0]);
+    int rows = sizeof(my_matrix_static) / sizeof(my_matrix_static[0]);
     int columns = sizeof(my_matrix_static[0]) / sizeof(int);
 
     std::cout << "Printing elements of my_matrix_static:\n";
 
-    for (int i = 0; i < rowss; i++)
+    for (int i = 0; i < rows; i++)
     {
         std::cout << '\n';
         for (int j = 0; j < columns; j++)
