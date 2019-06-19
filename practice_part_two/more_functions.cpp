@@ -241,3 +241,8 @@ void MoreFunctions::matrix_print_A_dynamic()
 
     std::cout << std::endl;
 }
+
+void BinaryTree::add_element(const int &value)
+{
+    // TODO -> add_element impl
+}

@@ -62,4 +62,21 @@ public:
     void void_recursive_reverse(Node **head_ref);
 };
 
+class BinaryTree
+{
+public:
+    BinaryTree() { root = NULL; }
+    struct BinaryTreeNode *root;
+    void add_element(const int &value);
+    void reverse();
+    void print_binary_tree();
+};
+
+struct BinaryTreeNode
+{
+    int value = 0;
+    BinaryTreeNode left_child = NULL;
+    BinaryTreeNode right_child = NULL;
+};
+
 #endif /* more_functions_hpp */
