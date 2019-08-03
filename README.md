@@ -4,7 +4,7 @@
   <li>I haven't played with it in a long while.</li>
   <li>Compiling with G++ and GCC.</li>
   <li>Has a small Python script for some simple help.</li>
-  <li>Potential unstructured code for practising purposes. *Not* structured by difficulty.</li>
+  <li>Potential unstructured code for practising purposes. <b>Not</b> structured by difficulty.</li>
   <li>Using CMake (like a noob) for building the project.</li>
 </ul>
 
