@@ -19,7 +19,7 @@ g++ ${array_of_files (.cpp)} -o doomrecey++ (with -std=c++11)
 
 Note #2: CMakeLists.txt is added for C and C++ binaries.
 
-Note #3: In the future i'd want to try embedded development with these tools as well (embedded C/C++).
+Note #3: In the future I'd want to try embedded development with these tools as well (embedded C/C++).
 
 #### Project views:
 
