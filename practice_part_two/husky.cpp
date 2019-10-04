@@ -7,7 +7,7 @@ void Husky::add_extra_waffles(int waffle_count)
 {
     srand(time(NULL));
     int added_waffles = rand() % 10 + 1;
-    std::cout << "Husky: I'll add " << added_waffles << " more waffles!\n";
+    std::cout << "Husky: I'll add " << added_waffles << " more waffle/waffles!\n";
     Husky::waffle_count = waffle_count + added_waffles;
 }
 
