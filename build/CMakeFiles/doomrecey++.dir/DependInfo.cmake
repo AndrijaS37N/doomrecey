@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_one/dog.cpp" "/Users/andrijadjuric/Sites/GitHub/doomrecey/build/CMakeFiles/doomrecey++.dir/practice_part_one/dog.cpp.o"
   "/Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_one/intermediate_io.cpp" "/Users/andrijadjuric/Sites/GitHub/doomrecey/build/CMakeFiles/doomrecey++.dir/practice_part_one/intermediate_io.cpp.o"
   "/Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_one/simple_io.cpp" "/Users/andrijadjuric/Sites/GitHub/doomrecey/build/CMakeFiles/doomrecey++.dir/practice_part_one/simple_io.cpp.o"
+  "/Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_three/alpha.cpp" "/Users/andrijadjuric/Sites/GitHub/doomrecey/build/CMakeFiles/doomrecey++.dir/practice_part_three/alpha.cpp.o"
   "/Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_two/husky.cpp" "/Users/andrijadjuric/Sites/GitHub/doomrecey/build/CMakeFiles/doomrecey++.dir/practice_part_two/husky.cpp.o"
   "/Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_two/malamute.cpp" "/Users/andrijadjuric/Sites/GitHub/doomrecey/build/CMakeFiles/doomrecey++.dir/practice_part_two/malamute.cpp.o"
   "/Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_two/more_functions.cpp" "/Users/andrijadjuric/Sites/GitHub/doomrecey/build/CMakeFiles/doomrecey++.dir/practice_part_two/more_functions.cpp.o"

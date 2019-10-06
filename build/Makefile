@@ -285,6 +285,33 @@ practice_part_one/simple_io.cpp.s:
 	$(MAKE) -f CMakeFiles/doomrecey++.dir/build.make CMakeFiles/doomrecey++.dir/practice_part_one/simple_io.cpp.s
 .PHONY : practice_part_one/simple_io.cpp.s
 
+practice_part_three/alpha.o: practice_part_three/alpha.cpp.o
+
+.PHONY : practice_part_three/alpha.o
+
+# target to build an object file
+practice_part_three/alpha.cpp.o:
+	$(MAKE) -f CMakeFiles/doomrecey++.dir/build.make CMakeFiles/doomrecey++.dir/practice_part_three/alpha.cpp.o
+.PHONY : practice_part_three/alpha.cpp.o
+
+practice_part_three/alpha.i: practice_part_three/alpha.cpp.i
+
+.PHONY : practice_part_three/alpha.i
+
+# target to preprocess a source file
+practice_part_three/alpha.cpp.i:
+	$(MAKE) -f CMakeFiles/doomrecey++.dir/build.make CMakeFiles/doomrecey++.dir/practice_part_three/alpha.cpp.i
+.PHONY : practice_part_three/alpha.cpp.i
+
+practice_part_three/alpha.s: practice_part_three/alpha.cpp.s
+
+.PHONY : practice_part_three/alpha.s
+
+# target to generate assembly for a file
+practice_part_three/alpha.cpp.s:
+	$(MAKE) -f CMakeFiles/doomrecey++.dir/build.make CMakeFiles/doomrecey++.dir/practice_part_three/alpha.cpp.s
+.PHONY : practice_part_three/alpha.cpp.s
+
 practice_part_two/husky.o: practice_part_two/husky.cpp.o
 
 .PHONY : practice_part_two/husky.o
@@ -420,6 +447,9 @@ help:
 	@echo "... practice_part_one/simple_io.o"
 	@echo "... practice_part_one/simple_io.i"
 	@echo "... practice_part_one/simple_io.s"
+	@echo "... practice_part_three/alpha.o"
+	@echo "... practice_part_three/alpha.i"
+	@echo "... practice_part_three/alpha.s"
 	@echo "... practice_part_two/husky.o"
 	@echo "... practice_part_two/husky.i"
 	@echo "... practice_part_two/husky.s"

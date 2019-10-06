@@ -8,7 +8,7 @@
 #include "dog.hpp"
 #include "cat.hpp"
 
-void activate_part_one() // 'intermediate' + simple stuff
+void activate_part_one()
 {
     SimpleIO simple_io;
     simple_io.call_hello_world();

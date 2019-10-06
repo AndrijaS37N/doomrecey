@@ -7,8 +7,7 @@ project(doomrecey)
 # add_executable(doomrecey main.c practice_part_one/simple_io.c)
 
 # for the doomrecey++ part of the project use this 👇
-add_executable
-(
+add_executable(
     doomrecey++ 
     main.cpp 
     practice_part_one/simple_io.cpp 
