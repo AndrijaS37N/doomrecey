@@ -6,20 +6,10 @@
 
 #IncludeRegexTransform: 
 
-/Users/andrijadjuric/Sites/GitHub/doomrecey/main.c
-practice_part_one/part_one_linker.h
-/Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_one/part_one_linker.h
-stdlib.h
--
-
-/Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_one/part_one_linker.h
+/Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_one/simple_io.c
 stdio.h
 -
-math.h
--
-sys/time.h
--
-unistd.h
+stdlib.h
 -
 simple_io.h
 /Users/andrijadjuric/Sites/GitHub/doomrecey/practice_part_one/simple_io.h
