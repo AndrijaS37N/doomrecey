@@ -1,6 +1,8 @@
 #ifndef part_three_linker_hpp
 #define part_three_linker_hpp
 
+#include "alpha.hpp"
+
 using namespace std;
 
 // int addition(int *a, int *b)
@@ -26,18 +28,18 @@ using namespace std;
 // {
 // public:
 //     Entity() {}
-//     // Entity(int a, float b) 
-//     // { 
+//     // Entity(int a, float b)
+//     // {
 //     //     m_a = a;
 //     //     m_b = b;
-//     //     cout << "Entity made!" << endl; 
+//     //     cout << "Entity made!" << endl;
 //     // }
 //     ~Entity() { cout << "Entity destroyed!" << endl; }
 //     int m_a;
 //     float m_b;
-//     void func() 
-//     { 
-//         cout << "Entity func!" << endl; 
+//     void func()
+//     {
+//         cout << "Entity func!" << endl;
 //         cout << m_a << endl;
 //         cout << m_b << endl;
 //     }
@@ -59,33 +61,54 @@ using namespace std;
 //     void func_private_player() { cout << "Player private func!" << endl; }
 // };
 
-class C { 
-    int i; // 4
+class C
+{
+    int i;  // 4
     char c; // 1 - 1/4
     char p; // 1 - 2/4
-}; // <=> 4 + 4 chunk blocks = 8 bytes
+};          // <=> 4 + 4 chunk blocks = 8 bytes
 
-class B {
-    C c; // 8
+class B
+{
+    C c;   // 8
     int x; // 4
-}; // <=> 12
+};         // <=> 12
 
-class A {
+class A
+{
     char c;
     double d;
     char h;
     int i;
 };
 
-class A1 {
-    A a;
-    int x;
+class A1
+{
+public:
+    enum Example : unsigned char
+    {
+        X = 'h',
+        Y,
+        Z
+    };
+    A a;   // 24
+    int x; //
     int q;
 };
 
 /*
     The biggest data structure dictates the block size.
 */
+
+enum Example1 : unsigned char
+{
+    X = 'K',
+    Y,
+    Z,
+    E,
+    G,
+    H
+};
 
 void activate_part_three()
 {
@@ -97,6 +120,33 @@ void activate_part_three()
     cout << sizeof(a) << endl;
     A1 a1;
     cout << sizeof(a1) << endl;
+
+    // Example val_a = X;
+    // Example val_c = Z;
+    // cout << (char)val_a << endl;
+    // cout << (char)val_c << endl;
+
+    cout << (char)a1.X << endl;
+    cout << (char)a1.Z << endl;
+
+    cout << sizeof(Example1) << endl;
+
+    cout << "---" << endl;
+    // Printer::printSizes(); // static call
+    Printer r;
+    r.printSizes();
+
+    char s_array[10];
+    cout << "char c[10] size: " << sizeof(s_array) << endl;
+    const char *p_array;
+    cout << "const *char ch: " << sizeof(p_array) << endl;
+
+    Alpha alpha;
+    alpha.move(1.4f, 1.5f);
+    Beta beta;
+    beta.printName("Keyush");
+    r.printSizes();
+
     // Entity entity(5, 6.4f);
     // Entity entity;
     // entity.func();
