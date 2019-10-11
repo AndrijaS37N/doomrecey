@@ -137,15 +137,40 @@ void activate_part_three()
     r.printSizes();
 
     char s_array[10];
-    cout << "char c[10] size: " << sizeof(s_array) << endl;
+    cout << "char s_array[10] size: " << sizeof(s_array) << endl;
     const char *p_array;
-    cout << "const *char ch: " << sizeof(p_array) << endl;
+    cout << "const char *p_array: " << sizeof(p_array) << endl;
 
     Alpha alpha;
-    alpha.move(1.4f, 1.5f);
     Beta beta;
     beta.printName("Keyush");
     r.printSizes();
+    cout << "---" << endl;
+    alpha.func();
+    alpha.printLala("Woo!");
+    beta.func();
+    beta.printLala("Halla!");
+
+    Alpha alpha_d = Alpha();
+    Alpha beta_d = Beta();
+    // beta.printName("Keyush");
+    r.printSizes();
+    cout << "---" << endl;
+    alpha_d.func();
+    alpha_d.printLala("Woo!");
+    beta_d.func();
+    beta_d.printLala("Halla!");
+    cout << "---" << endl;
+    Alpha *alpha_p = new Alpha();
+    Alpha *beta_p = new Beta();
+
+    alpha_p->func();
+    alpha_p->printLala("Woo!");
+    beta_p->func();
+    beta_p->printLala("Halla!");
+
+    delete (alpha_p);
+    delete (beta_p);
 
     // Entity entity(5, 6.4f);
     // Entity entity;

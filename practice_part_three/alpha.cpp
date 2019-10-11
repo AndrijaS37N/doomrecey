@@ -1,7 +1,7 @@
 #include <iostream>
 #include "alpha.hpp"
 
-unsigned long long int Alpha::s_var = 87314039;
+unsigned long long int Alpha::s_var = 82804;
 
 void Printer::printSizes()
 {
