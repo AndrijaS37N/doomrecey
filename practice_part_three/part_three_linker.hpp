@@ -110,6 +110,18 @@ enum Example1 : unsigned char
     H
 };
 
+void printElements(const std::array<string, 10> &cookies)
+{
+    int i = 0;
+    for (const string &s : cookies)
+    {
+        i++;
+        std::cout << s << " ";
+    }
+    std::cout << std::endl;
+    std::cout << "Size: " << cookies.size() << std::endl;
+}
+
 void activate_part_three()
 {
     C c;
@@ -171,6 +183,18 @@ void activate_part_three()
 
     delete (alpha_p);
     delete (beta_p);
+
+    array<string, 10> cookies;
+    cookies.fill("Aaaaa");
+    printElements(cookies);
+    
+    cout << endl;
+    
+    // .....
+    // vector<int, int> points;
+    // points.push_back(1, 1);
+
+    // WIP 🧩
 
     // Entity entity(5, 6.4f);
     // Entity entity;

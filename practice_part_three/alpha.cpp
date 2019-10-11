@@ -10,4 +10,6 @@ void Printer::printSizes()
     std::cout << "Printer: " << sizeof(Printer) << std::endl;
     std::cout << "s_var: " << Alpha::s_var << std::endl;
     std::cout << "s_var size: " << sizeof(Alpha::s_var) << std::endl;
+    std::cout << "X class: " << sizeof(X) << std::endl;
+    std::cout << "Y class: " << sizeof(Y) << std::endl;
 }

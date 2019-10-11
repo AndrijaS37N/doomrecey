@@ -8,7 +8,8 @@ class Alpha
 public:
     float X, Y;
     static unsigned long long int s_var; // if not const but assigned a value like = 82804; -> compile error
-    void func() {
+    void func()
+    {
         cout << "Alpha func()" << endl;
     }
     virtual void printLala(const string &text)
@@ -34,7 +35,8 @@ public:
     {
         cout << "Beta: " << s << endl;
     }
-    void func() {
+    void func()
+    {
         cout << "Beta func()" << endl;
     }
 
@@ -46,6 +48,16 @@ private:
 struct Printer
 {
     void printSizes();
+};
+
+class X
+{
+    float X, Y;
+};
+
+class Y : public X
+{
+    const char* text;
 };
 
 #endif /* alpha_hpp */
