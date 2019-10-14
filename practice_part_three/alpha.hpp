@@ -43,8 +43,6 @@ public:
 private:
 };
 
-// WIP
-
 struct Printer
 {
     void printSizes();

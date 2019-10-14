@@ -185,16 +185,41 @@ void activate_part_three()
     delete (beta_p);
 
     array<string, 10> cookies;
-    cookies.fill("Aaaaa");
+    auto lamba_return = [&cookies]() { // must be mutable if passing by value '[=]' ... = [&cookies]() mutable { ...
+        cookies.fill("Aaaaa");
+        cout << "Cookies filled!" << endl;
+    };
+    lamba_return();
     printElements(cookies);
-    
-    cout << endl;
-    
-    // .....
-    // vector<int, int> points;
-    // points.push_back(1, 1);
 
-    // WIP 🧩
+    cout << "---" << endl;
+
+    vector<int> points;
+    points.push_back(1);
+    points.push_back(7);
+    points.push_back(15);
+    points.pop_back();
+    for (int i = 0; i < points.size(); i++)
+    {
+        cout << points[i] << endl;
+    }
+
+    int rows = 6;
+    int columns = 10;
+    vector<vector<int>> matrix(rows);
+    for (int i = 0; i < rows; i++)
+        matrix[i].resize(columns);
+
+    for (int i = 0; i < rows; i++)
+    { 
+        for (int j = 0; j < columns; j++)
+        {
+            cout << matrix[i][j] << " ";
+        }
+        cout << endl;
+    }
+    
+    // LIP 🧩
 
     // Entity entity(5, 6.4f);
     // Entity entity;
