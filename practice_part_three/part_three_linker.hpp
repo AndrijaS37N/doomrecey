@@ -110,6 +110,28 @@ enum Example1 : unsigned char
     H
 };
 
+class Hello
+{
+private:
+    string m_HelloName;
+    int m_HelloNum;
+public:
+    Hello(const string &helloName) : m_HelloName(helloName) {}
+    Hello(const int &helloNum) : m_HelloNum(helloNum) {}
+    Hello() {}
+    ~Hello() {}
+    const void log() const
+    {
+        cout << "Name: " << m_HelloName << " | Type: " << typeid(m_HelloName).name() << endl;
+        cout << "Num: " << m_HelloNum << " | Type: " << typeid(m_HelloNum).name() << endl;
+    }
+};
+
+void logHello(const Hello &hello)
+{
+    hello.log();
+}
+
 void printElements(const std::array<string, 10> &cookies)
 {
     int i = 0;
@@ -211,15 +233,35 @@ void activate_part_three()
         matrix[i].resize(columns);
 
     for (int i = 0; i < rows; i++)
-    { 
+    {
         for (int j = 0; j < columns; j++)
         {
             cout << matrix[i][j] << " ";
         }
         cout << endl;
     }
-    
-    // LIP 🧩
+
+    int length = 7;
+    int *num = (int *)malloc(length * sizeof(num)); // C++ compiler will not compile -> void* must be casted to an appropriate type pointer (int*)
+    cout << sizeof(num) << endl;
+    *num = 5;
+    *(num + 1) = 934;
+
+    cout << *num << endl;
+    cout << *(num + 1) << endl;
+    free(num);
+    cout << "---" << endl;
+    Hello h1 = string("Hello"); // needed cast because string literal is a char array; needs to be string, constructor says so!
+    Hello h2 = 55;
+    logHello(55); // implicit activation
+    // if constructor is 'explicit Hello() { ...', implicit activation will not work
+    logHello(string("Hello"));
+
+    string string_var;
+    cout << string_var.length() << endl;
+    cout << sizeof(string_var) << endl;
+
+    // LIP 🧩 
 
     // Entity entity(5, 6.4f);
     // Entity entity;
